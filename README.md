@@ -1,7 +1,8 @@
-# Website powering Science Hack Day India 2013-2016
+# Website powering Science Hack Day India 2016 and beyond
 
 ## Credits
-Based on the [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) theme using Bootstrap
+
+The 2016 site was based on the [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) theme using Bootstrap
 
 ## Copyright and License
 
