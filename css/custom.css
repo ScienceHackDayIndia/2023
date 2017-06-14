@@ -1,0 +1,38 @@
+.tagline {
+    font-size: 40px;
+}
+
+a {
+    color: #b66363;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #b66363;
+    border-color: #b66363;
+}
+
+.btn-primary:hover {
+    color: #b66363;
+    background-color: #fff;
+    border-color: #b66363;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  color: #ffffff;
+    text-decoration: none;
+    background-color: #b66363;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #b66363;
+    border-color: #b66363;
+    color: #ffffff;
+
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    text-decoration: bold;
+    background-color: #b66363;
+}
