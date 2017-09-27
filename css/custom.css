@@ -36,3 +36,44 @@ a {
     text-decoration: bold;
     background-color: #c34d0f;
 }
+
+
+.navbar-toggle {
+  background-color: #c34d0f;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #c34d0f;
+}
+
+.navbar-toggle .icon-bar {
+     color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #c34d0f;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-color: #c34d0f;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #c34d0f;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+a:focus, a:hover {
+  color: #ffffff;
+  background-color: #c34d0f;
+    text-decoration: underline;
+}
