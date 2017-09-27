@@ -36,3 +36,8 @@ a {
     text-decoration: bold;
     background-color: #c34d0f;
 }
+
+.navbar.navbar-fixed-top {
+    background: white;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 10px;
+}
