@@ -6,3 +6,15 @@
     top: auto;
   }
 }
+
+.navbar-toggle {
+  background-color: #c34d0f;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #c34d0f;
+}
+
+.navbar-toggle .icon-bar {
+     color: white;
+}
