@@ -1,6 +1,6 @@
 # Science Hack Day India 2018
 
-### 12th to 14th October 2018, Sankalp Bhoomi Farm Resort, Belgaum
+### 2nd to 4th November 2018, Sankalp Bhoomi Farm Resort, Belgaum
 
 ### Theme Credits
 
