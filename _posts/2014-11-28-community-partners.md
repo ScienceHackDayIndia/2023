@@ -5,12 +5,11 @@ feature-img:
 thumbnail:
 tags: [SHD India, Science, Python Community]
 ---
-<p>
-     <h3><small>Amazing People/Organizations helping us to make SHD India happen</small></h3>
-</p>
-<p align="center"> 
-     <a href="https://www.python.org/psf/"><img src="{{site.baseurl}}/assets/img/psflogo.png" alt=""></a>
-     <a href="http://icfoss.in/"><img src="{{site.baseurl}}/assets/img/icfosslogo.jpeg" alt=""></a>
+<p>Amazing People/Organizations helping us to make SHD India happen</p>
+<p align="left"> 
+     <a href="https://www.python.org/psf/" target="_blank" ><img src="{{site.baseurl}}/assets/img/psflogo.png" alt=""></a> </p>
+<p align="right"> 
+     <a href="http://icfoss.in/" target="_blank" ><img src="{{site.baseurl}}/assets/img/icfosslogo.jpeg" alt=""></a>
 </p>
 <p> <hr> </p>
 <p align="center"> 
