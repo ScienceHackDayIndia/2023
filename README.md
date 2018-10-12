@@ -16,8 +16,6 @@
 * Syntax Highlighting: Easily customisable [Base16](https://github.com/chriskempson/base16)
 * Free of rights images from [pexels](https://www.pexels.com/)
 
-> [Demo](https://sylhare.github.io/Type-on-Strap/)
- 
 [![Default Type on Strap blog](https://github.com/Sylhare/Type-on-Strap/blob/master/screenshot.png?raw=true)](https://sylhare.github.io/Type-on-Strap/)
 
 
