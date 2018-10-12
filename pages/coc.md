@@ -3,7 +3,7 @@ layout: page
 title: Code of Conduct
 permalink: /coc/
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Archive]
+tags: [COC, Safety]
 ---
 <h2>Science Hack Day India</h2>
 <h2>Code of Conduct</h2>
