@@ -22,7 +22,7 @@ If the matter is especially urgent, please call/contact any of these individuals
       </ul>
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
       <p>This Code of Conduct was forked from the  coc policy of the  Science Hack Day Dublin </p>
-      
+<p> <hr> </p>      
 <h2>Stay safe</h2>
 We want to provide a safe environment for everyone. This requires taking some precautions regarding health and safety during the event.
 
