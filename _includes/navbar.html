@@ -5,7 +5,6 @@
 		<a href="{{ site.baseurl }}/">
 			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
 		</a>
-
 		<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 		</h1>
@@ -21,7 +20,6 @@
     <ul class="hide">
         <!-- Auto Generation of NORMAL pages in the navbar -->
         {% assign name_page = "" %}
-        
         {% for page in site.pages %}
         {% if page.title and page.hide != true %}
         {% if name_page contains page.title %}
@@ -38,15 +36,25 @@
         {% endfor %} 
         
 	<!-- Navigation from old site --> 
-          <li>
-            <a href="mentors.html">Projects and Mentors</a>
-          </li>             
-          <li>
+                  
+       	<li>
             <a href="team.html">Team</a>
-          </li>
-          <li><a href="schedule.html">SHD Schedule</a></li>
+      	</li>
+      	<li><a href="schedule.html">SHD Schedule</a></li>
+	<div class="dropdown">
+  		<button class="dropbtn">Dropdown</button>
+  		<div class="dropdown-content">
+   			<a href="http://sciencehackday.org/"target="_blank"> Global SHD</a>
+   			<a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a>
+    			<a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a>
+  		</div>
+	</div> 
+	    
+	    
+	    
+	    
           <li>
-            <a href="http://sciencehackday.org/">Global SHD</a>
+            <a href="http://sciencehackday.org/"target="_blank"> Global SHD</a>
           </li>
            <li><a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a></li>
 	   <li><a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a></li>
