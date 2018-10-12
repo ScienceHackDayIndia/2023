@@ -15,15 +15,17 @@ tags: [About, Archive]
 <h3>Contact Information</h3>
 <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Event staff will be wearing "SHD Organizer" badge.
 If the matter is especially urgent, please call/contact any of these individuals:</p>
-      ><ul>
-            ><li>Mr. Praveen Patil at +91-9482543803</li>
-            ><li>Mr. Rahul Khanolkar at +91-9986689985</li>
-            ><li>Mrs. Rupa Ghadi at +91-9449308975</li>
-            ><li>Mrs. Anuja Chavan +91 9741081664<li>
-      ></ul>
+      <p><ul>
+            <li>Mr. Praveen Patil at +91-9482543803</li>
+            <li>Mr. Rahul Khanolkar at +91-9986689985</li>
+            <li>Mrs. Rupa Ghadi at +91-9449308975</li>
+            <li>Mrs. Anuja Chavan +91 9741081664<li>
+      </ul></p>
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
-      <p>This Code of Conduct was forked from the coc policy of the  Science Hack Day Dublin </p>
-<p> <hr> </p>      
+      
+<p>This Code of Conduct was forked from the coc policy of the  Science Hack Day Dublin </p>
+<p> <hr> </p>   
+
 <h2>Stay safe</h2>
 We want to provide a safe environment for everyone. This requires taking some precautions regarding health and safety during the event.
 
