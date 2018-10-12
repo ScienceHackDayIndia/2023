@@ -9,6 +9,7 @@ tags: [About, Makerspace Belgaum, PyBelgaum]
 # Who we are
 
 SHD Belgaum isn’t an organization or a company - it's just a loose grassroot network pf passionate people who are curious and motivated about ideas about ideas and innovations that can bring a positive change the society. The organizing team consists wholly of volunteers from the world’s of science, art, design, computing, technology, architecture and the intersections between.
+Our volunteers are from communities like **PyBelgaum** (Python Users Group), **FossMatters**, **Mhadei Research Center**, **DGPLUG**, **PyLadies** and **Galileo Astronomy Club**
 
 Most of us belong to **Makerspace Belgaum**.
 <p>
