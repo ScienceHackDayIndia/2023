@@ -6,7 +6,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 <h2>Science Hack Day India</h2>
-<h1>Code of Conduct</h1>
+<h2>Code of Conduct</h2>
 <h3>The short version</h3>
 <p>Science Hack Day India is an inclusive event based on treating all individuals respectfully, regardless of gender, sexual orientation, age, disability, ethnicity and religion (or lack thereof). We feel it is important to make clear that harassment of any kind will not be tolerated and that if any issues arise they will be dealt with in a serious manner. Fortunately, we have never had a problem with this and the event organisers are actively committed to making sure  that this remain the case. Science Hack Day India has always been a friendly social event, so if that isn’t something you can get behind please don’t come. If you come and act nasty or mean, we will ask you to leave. Be nice. Be considerate. Be civil. It’s easy.</p>
 <h3>The Longer version</h3>
@@ -15,12 +15,12 @@ tags: [About, Archive]
 <h3>Contact Information</h3>
 <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Event staff will be wearing "SHD Organizer" badge.
 If the matter is especially urgent, please call/contact any of these individuals:</p>
-      <ul>
-            <li>Mr. Praveen Patil at +91-9482543803</li>
-            <li>Mr. Rahul Khanolkar at +91-9986689985</li>
-            <li>Mrs. Rupa Ghadi at +91-9449308975</li>
-            <li>Mrs. Anuja Chavan +91 9741081664<li>
-      </ul>
+      ><ul>
+            ><li>Mr. Praveen Patil at +91-9482543803</li>
+            ><li>Mr. Rahul Khanolkar at +91-9986689985</li>
+            ><li>Mrs. Rupa Ghadi at +91-9449308975</li>
+            ><li>Mrs. Anuja Chavan +91 9741081664<li>
+      ></ul>
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
       <p>This Code of Conduct was forked from the coc policy of the  Science Hack Day Dublin </p>
 <p> <hr> </p>      
