@@ -3,6 +3,7 @@
 
 #### 2nd to 4th November 2018, Sankalp Bhoomi Farm Resort, Belgaum
 
+
 #### Theme Credits
 **Type on Strap** 
 
@@ -15,9 +16,6 @@
 * Seo Tags : [Jekyll-seo-tag](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
 * Syntax Highlighting: Easily customisable [Base16](https://github.com/chriskempson/base16)
 * Free of rights images from [pexels](https://www.pexels.com/)
-
-[![Default Type on Strap blog](https://github.com/Sylhare/Type-on-Strap/blob/master/screenshot.png?raw=true)](https://sylhare.github.io/Type-on-Strap/)
-
 
 #### License
 
