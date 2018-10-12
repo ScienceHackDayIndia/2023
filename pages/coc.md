@@ -16,12 +16,12 @@ tags: [About, Archive]
 <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Event staff will be wearing "SHD Organizer" badge.
 If the matter is especially urgent, please call/contact any of these individuals:</p>
   <p> 
-  <ul>
-   <li>*Mr. Praveen Patil at       +91-9482543803</Li>
-   *Mr. Rahul Khanolkar at     +91-9986689985
-   *Mrs. Rupa Ghadi at         +91-9449308975
-   *Mrs. Anuja Chavan          +91 9741081664
-   </ul>
+    <ul>
+      <li>Mr. Praveen Patil at       +91-9482543803</Li>
+      <li>Mr. Rahul Khanolkar at     +91-9986689985</li>
+      <li>Mrs. Rupa Ghadi at         +91-9449308975</li>
+      <li>Mrs. Anuja Chavan          +91 9741081664</li>
+    </ul>
   </p>
      
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
@@ -33,13 +33,16 @@ If the matter is especially urgent, please call/contact any of these individuals
 We want to provide a safe environment for everyone. This requires taking some precautions regarding health and safety during the event.
 
 Your project might require dangerous tools or chemicals to work out. Before you do anything that could potentially harm you or others, come and talk to one of the organisers. This includes, but is not limited to,
-
-  *Lasers (anything above class 1, like the laser diode out of a DVD drive)
-  *Fast moving, heavy tools (angle grinders, electric saws…)
-  *Chemicals (bases or acids, bleach, solvents, alcoholic compounds…)
-  *Loud or explosive devices (sirens, fireworks…)
-  *Any other kind of explosive or flammable material.
-
+  <p> 
+    <ul>
+      <li>Lasers (anything above class 1, like the laser diode out of a DVD drive)</Li>
+      <li>Fast moving, heavy tools (angle grinders, electric saws…)</li>
+      <li>Chemicals (bases or acids, bleach, solvents, alcoholic compounds…)</li>
+      <li>Loud or explosive devices (sirens, fireworks…)</li>
+      <li>Any other kind of explosive or flammable material.</li>
+    </ul>
+  </p>
+ 
 Before you attempt to do anything that could pose a risk to you or others, talk to the organisers. They will not stop you from completing your project. You might just have to take certain precautions to reduce risk of harm for everyone around you. In general, we aim to allow as much as possible as long as we talked about it before.
 
 If we find you using any dangerous tool or material without having talked to us first, we will have to take consequences that can lead up to the exclusion from the event in extreme (but so far very rare) cases.
