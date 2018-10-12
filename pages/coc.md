@@ -23,20 +23,20 @@ If the matter is especially urgent, please call/contact any of these individuals
       </ul></p>
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
       
-<p>This Code of Conduct was forked from the coc policy of the  Science Hack Day Dublin </p>
+  *This Code of Conduct was forked from the coc policy of the  Science Hack Day Dublin*
 <p> <hr> </p>   
 
 <h2>Stay safe</h2>
 We want to provide a safe environment for everyone. This requires taking some precautions regarding health and safety during the event.
 
 Your project might require dangerous tools or chemicals to work out. Before you do anything that could potentially harm you or others, come and talk to one of the organisers. This includes, but is not limited to,
-      <ul>
-            <li>Lasers (anything above class 1, like the laser diode out of a DVD drive)
-            <li> Fast moving, heavy tools (angle grinders, electric saws…)
-            <li>Chemicals (bases or acids, bleach, solvents, alcoholic compounds…)
-            <li> Loud or explosive devices (sirens, fireworks…)
-            <li>Any other kind of explosive or flammable material.
-      </ul>
+
+
+  *Lasers (anything above class 1, like the laser diode out of a DVD drive)
+  *Fast moving, heavy tools (angle grinders, electric saws…)
+  *Chemicals (bases or acids, bleach, solvents, alcoholic compounds…)
+  *Loud or explosive devices (sirens, fireworks…)
+  *Any other kind of explosive or flammable material.
 
 Before you attempt to do anything that could pose a risk to you or others, talk to the organisers. They will not stop you from completing your project. You might just have to take certain precautions to reduce risk of harm for everyone around you. In general, we aim to allow as much as possible as long as we talked about it before.
 
