@@ -10,7 +10,7 @@ tags: [About, Makerspace Belgaum, PyBelgaum]
 
 SHD Belgaum isn’t an organization or a company - it's just a loose grassroot network pf passionate people who are curious and motivated about ideas about ideas and innovations that can bring a positive change the society. The organizing team consists wholly of volunteers from the world’s of science, art, design, computing, technology, architecture and the intersections between.
 
-Most of us belong to **Makerspace Belgaum** 
+Most of us belong to **Makerspace Belgaum**.
 <p>
  <a href=""><img src="{{site.baseurl}}/assets/img/msblogo.jpg" alt="Makerspace Belgaum" ></a>
 </p>
@@ -18,7 +18,7 @@ Most of us belong to **Makerspace Belgaum**
 A creative learning centre which enables immersive and experiential learning.  In the makerspace visitors are invited to explore a curiosity-driven exhibit, chat with a featured artist, or investigate a range of phenomena with artists, scientists, educators, and others by participating in a collaborative activity. Makerspace also makes available all the tools for kids to facilitate learning by exploring and experimenting.
     
      
-**Sankalp Bhoomi** is our organizing partne.
+**Sankalp Bhoomi** is our organizing partner.
 <p>
  <a href="http://sankalphospitality.in" target="_blank" ><img src="{{site.baseurl}}/assets/img/sankalpbhoomi.jpg" alt="Sankalpbhoomi"></a>
 </P> 
