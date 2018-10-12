@@ -16,10 +16,10 @@ tags: [About, Archive]
 <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff. Event staff will be wearing "SHD Organizer" badge.
 If the matter is especially urgent, please call/contact any of these individuals:</p>
       
-   >*Mr. Praveen Patil at       +91-9482543803
-   >*Mr. Rahul Khanolkar at     +91-9986689985
-   >*Mrs. Rupa Ghadi at         +91-9449308975
-   >*Mrs. Anuja Chavan          +91 9741081664
+   *Mr. Praveen Patil at       +91-9482543803
+   *Mr. Rahul Khanolkar at     +91-9986689985
+   *Mrs. Rupa Ghadi at         +91-9449308975
+   *Mrs. Anuja Chavan          +91 9741081664
      
 <p>Event staff will be happy to help participants contact college/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of SHD. We value your attendance.</p>
       
