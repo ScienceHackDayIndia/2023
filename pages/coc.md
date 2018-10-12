@@ -48,5 +48,5 @@ Before you attempt to do anything that could pose a risk to you or others, talk 
 If we find you using any dangerous tool or material without having talked to us first, we will have to take consequences that can lead up to the exclusion from the event in extreme (but so far very rare) cases.
 
 <h3>Be smart, be safe.</h3>
-*This safety doc is forked from the  Science Hack Day Berlin*
-
+  *This safety doc is forked from the  Science Hack Day Berlin*
+<p> <hr> </p>
