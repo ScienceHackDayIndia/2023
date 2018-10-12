@@ -1,3 +1,40 @@
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
 <header class="site-header">
     
     <!-- Logo and title -->
@@ -34,16 +71,19 @@
         {% assign name_page = page.title | append: name_page %}
         {% endif %}
         {% endfor %} 
-        
-	<!-- Navigation from old site --> 
-                  
-       	<li>
-            <a href="team.html">Team</a>
-      	</li>
-      	<li><a href="schedule.html">SHD Schedule</a></li>
-	<li><a href="http://sciencehackday.org/"target="_blank"> Global SHD</a></li>
+        <div class="dropdown"> 
+		<button class="dropbtn">Dropdown</button>
+  			<div class="dropdown-content">
+    				<a href="http://sciencehackday.org/"target="_blank"> Global SHD</a>
+    				<a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a>
+    				<a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a>
+			</div>
+	</div>
+	    
+	    
+	<!--<li><a href="http://sciencehackday.org/"target="_blank"> Global SHD</a></li>
    	<li><a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a></li>
-    	<li><a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a></li>
+    	<li><a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a></li>-->
   		
 	        
         <!-- Auto Generation of SPECIAL pages in the navbar -->
