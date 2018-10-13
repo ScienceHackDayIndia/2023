@@ -9,16 +9,6 @@ tags: [About, Archive]
 
 <html>
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Science Hack Day is a two-day event where anyone excited about making weird, silly or serious things with science comes together in the same physical space to see what they can prototype within 30 consecutive hours.">
-
-  <meta name="keywords" content="Science Hack, Science Hack India, Maker, Hacking, Science Workshops, Student Workshops, Hack Day Belgaum, Science Belagavi, SHD, Hackathon">
-  <meta name="author" content="">
-
-  <title>Science Hack Day India 2017</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Bootstrap Core CSS -->
@@ -31,7 +21,6 @@ tags: [About, Archive]
 </head>
 
 <body>
-
  <!-- Page Content -->
   <div class="container">
    <div class="row">
@@ -39,7 +28,7 @@ tags: [About, Archive]
           <h2 class="page-header">Organizing Team</h2>
         </div>
          <div class="col-lg-4 col-sm-6 text-center">
-          <img class="img-circle img-responsive img-center" src="img/prabhusy.jpg" alt="">
+          <img class="img-circle img-responsive img-center" src={{site.baseurl}}/assets/img/prabhusy.jpg" alt="">
           <h3>Shrikrishna Prabhu
             <small></small>
           </h3>
