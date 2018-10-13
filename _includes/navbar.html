@@ -1,3 +1,26 @@
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+
+
 <header class="site-header">
     
     <!-- Logo and title -->
@@ -15,7 +38,6 @@
     <a id="pull" class="toggle" href="#">
     <i class="fa fa-bars fa-lg"></i>
     </a>
-    
     <!-- Menu -->
     <ul class="hide">
         <!-- Auto Generation of NORMAL pages in the navbar -->
@@ -33,32 +55,14 @@
         {% endif %}
         {% assign name_page = page.title | append: name_page %}
         {% endif %}
-        {% endfor %} 
-        
-	<!-- Navigation from old site --> 
-                  
-       	<li>
-            <a href="team.html">Team</a>
-      	</li>
-      	<li><a href="schedule.html">SHD Schedule</a></li>
-	<li><a href="http://sciencehackday.org/"target="_blank"> Global SHD</a></li>
-   	<li><a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a></li>
-    	<li><a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a></li>
-  		
-	        
-        <!-- Auto Generation of SPECIAL pages in the navbar -->
-       <!-- from original theme  {% for item in site.theme_settings.special_page %}
-          {% if item[1].enabled %}
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" href="{{ site.url }}{{ site.baseurl }}/{{ item[0] }}">
-                    <i class="fa fa-{{ item[1].icon }}" aria-hidden="true"></i>
-                </a>
-            </li>
-          {% endif %}
-        {% endfor %} -->
-	    
-    </ul>
-        
-	</nav>
+        {% endfor %}    
+		<li><div class="dropdown"> <span>Archive</span>
+  			<div class="dropdown-content">
+    			<a href="{{ site.baseurl }}/2016/index.html" target="_blank" >SHD 2016</a>
+    			<a href="{{ site.baseurl }}/2017/index.html" target="_blank" >SHD 2017</a>
+			</div>
+			</div></li>
+	<li> <a href="http://sciencehackday.org/"target="_blank"> Global SHD</a></li>
+     </ul>
+     </nav>
 </header>
