@@ -19,13 +19,9 @@ Spronsoship amount can be paid through DD or Cheque in favour of
 “Mhadei Research Center” payable at Belgaum.
 
 >**Sponsorship**
-
 >Encouragement and valuable support given by our genorous sponsors will be duly acknowledged by lead organizers during opening remarks.
-
 >Logo & web link will be displayed on the SHD Banner at the venue and on the event website. http://sciencehackday.in
-
->Recognition in roundup email to the  attendees 
-
+>Recognition in roundup email to the  attendees
 >(Optional) 5-10 min. Speaking opportunity  and distribution of promotional materials (provided by sponsor) at the event
 
 ..... or we are open to disscuss other ideas !
