@@ -32,7 +32,12 @@ h1.title {
 .container {
     padding: 0 16px;
 }
-
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 /* Clear floats */
 .container::after, .row::after {
     content: "";
