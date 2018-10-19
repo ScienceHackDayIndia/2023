@@ -33,7 +33,7 @@ We wouldn’t be able to do all this without our sponsors.
 
 ## Sponsorship Options
 
-### CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
+#### CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
 
    * Curiosity Platinum sponsor link on Science Hack Day website
    * Banner (provided by sponsor) in main room
@@ -43,7 +43,7 @@ We wouldn’t be able to do all this without our sponsors.
    * Thanks in press release and from social media accounts
    * On-stage recognition from the organisers
 
-### INNOVATION GOLD SPONSOR (Rs.50000/- or more)
+#### INNOVATION GOLD SPONSOR (Rs.50000/- or more)
 
    * Innobation Gold sponsor link on Science Hack Day website
    * Banner (provided by sponsor) in main room
@@ -52,14 +52,14 @@ We wouldn’t be able to do all this without our sponsors.
    * Marketing materials (provided by sponsor) in the main room.
    * On-stage recognition from organisers
 
-### CREATIVITY SILVER SPONSOR (Rs.25000/- or more)
+#### CREATIVITY SILVER SPONSOR (Rs.25000/- or more)
 
    * Creativity Silver sponsor link on Science Hack Day website
    * Meal named after sponsor (e.g. the “Sponsor Name”dinner)
    * Marketing materials (provided by sponsor) in the main room.
    * On-stage recognition from organizers
 
-### COMMUNITY SUPPORTER (Rs.15000/- or more)
+#### COMMUNITY SUPPORTER (Rs.15000/- or more)
 
    * Community Supporter link on Science Hack Day website
    * Marketing materials (provided by sponsor) in the main room.
