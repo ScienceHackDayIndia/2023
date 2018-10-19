@@ -7,6 +7,9 @@ tags: [About, Makerspace Belgaum, PyBelgaum, Python]
 ---
 
 # Call for Sponsors
+
+[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/blob/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
+
 ## What is Science Hack Day India?
 
 Science Hack Day India is volunteer-organized event. We are team of passionate volunteers and we know what it takes to make a great event. This is the 3rd edition of the event happening at Belgaum on 2-4 November 2018.
