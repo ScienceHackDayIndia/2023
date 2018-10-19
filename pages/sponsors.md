@@ -33,9 +33,9 @@ We wouldn’t be able to do all this without our sponsors.
 
 ## Sponsorship Options
 
-CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
+### CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
 
-    Curiosity Platinum sponsor link on Science Hack Day website
+   >Curiosity Platinum sponsor link on Science Hack Day website
     Banner (provided by sponsor) in main room
     Overall “Best Science Hack” Prize named after sponsor (e.g. “Sponsor Name” Best Science Hack Prize)
     Meal named after sponsor (e.g. the “Sponsor Name”dinner)
@@ -43,27 +43,27 @@ CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
     Thanks in press release and from social media accounts
     On-stage recognition from the organisers
 
-INNOVATION GOLD SPONSOR (Rs.50000/- or more)
+### INNOVATION GOLD SPONSOR (Rs.50000/- or more)
 
-    Innobation Gold sponsor link on Science Hack Day website
+   >Innobation Gold sponsor link on Science Hack Day website
     Banner (provided by sponsor) in main room
     Prize named after sponsor (e.g. “Sponsor Name” Best Socially useful Hack Prize)
     Meal named after sponsor (e.g. the “Sponsor Name”dinner)
     Marketing materials (provided by sponsor) in the main room.
     On-stage recognition from organisers
 
-CREATIVITY SILVER SPONSOR (Rs.25000/- or more)
+### CREATIVITY SILVER SPONSOR (Rs.25000/- or more)
 
-    Creativity Silver sponsor link on Science Hack Day website
+   >Creativity Silver sponsor link on Science Hack Day website
     Meal named after sponsor (e.g. the “Sponsor Name”dinner)
     Marketing materials (provided by sponsor) in the main room.
     On-stage recognition from organizers
 
-COMMUNITY SUPPORTER (Rs.15000/- or more)
+### COMMUNITY SUPPORTER (Rs.15000/- or more)
 
-  “Community Supporter”  link on Science Hack Day website
-  Marketing materials (provided by sponsor) in the main room.
-  On-stage recognition from organizers
+  >“Community Supporter”  link on Science Hack Day website
+    Marketing materials (provided by sponsor) in the main room.
+    On-stage recognition from organizers
 
  
  
@@ -72,8 +72,8 @@ COMMUNITY SUPPORTER (Rs.15000/- or more)
 ##### ..... or we are open to disscuss other ideas !
 
 
-Spronsoship amount can be paid through DD or Cheque in favour of
-“Mhadei Research Center” payable at Belgaum.
+>Spronsoship amount can be paid through DD or Cheque in favour of
+>“Mhadei Research Center” payable at Belgaum.
 
 Sponsorship Prospectus
 
