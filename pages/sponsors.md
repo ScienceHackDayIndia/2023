@@ -36,7 +36,7 @@ We wouldn’t be able to do all this without our sponsors.
 
 ## Sponsorship Options
 
-#### CURIOSITY PLATINIUM SPONSOR (Rs.750000/- or more)
+#### CURIOSITY PLATINIUM SPONSOR (Rs.75000/- or more)
 
    * Curiosity Platinum sponsor link on Science Hack Day website
    * Banner (provided by sponsor) in main room
