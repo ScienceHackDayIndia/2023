@@ -8,7 +8,7 @@ tags: [About, Makerspace Belgaum, PyBelgaum, Python]
 
 # Call for Sponsors
 
-[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/blob/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
+[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/raw/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
 
 ## What is Science Hack Day India?
 
@@ -80,7 +80,7 @@ We wouldn’t be able to do all this without our sponsors.
 > Write to us at shdbelgaum[AT]gmail.com
 
 
-[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/blob/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
+[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/raw/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
 
 
 
