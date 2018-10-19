@@ -76,8 +76,8 @@ We wouldn’t be able to do all this without our sponsors.
 >“Mhadei Research Center” payable at Belgaum.
 > Write to us at shdbelgaum[AT]gmail.com
 
-Sponsorship Prospectus
 
+[**Sponsorship Prospectus**](https://github.com/ScienceHackDayIndia/sciencehackday.in/blob/master/assets/data/SHD-Belgaum-Sponsorship-2018.pdf "Sponsorship Prospectus")
 
 
 
