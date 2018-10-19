@@ -9,7 +9,7 @@ tags: [About, Makerspace Belgaum, PyBelgaum, Python]
 # Call for Sponsors
 ## What is Science Hack Day India?
 
-Science Hack Day India is volunteer-organized event. We are team of passionate volunteers and we know what it takes to make a great event. This is the 3rd edition of the happening at Belgaum on 2-4 November 2018.
+Science Hack Day India is volunteer-organized event. We are team of passionate volunteers and we know what it takes to make a great event. This is the 3rd edition of the event happening at Belgaum on 2-4 November 2018.
 
 It is all-day-all-night event that brings together inquisitive and creative minds to one place, to make wonderful things. Designers, developers, engineers, scientists and artists proudly bring their A-game to the same physical space for a brief but intense period of collaboration, making, hacking, and building of ‘cool stuff’. By collaborating on focused tasks during this short period, small groups of makers are capable of producing remarkable results.
 
