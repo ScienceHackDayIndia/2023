@@ -74,6 +74,7 @@ We wouldn’t be able to do all this without our sponsors.
 
 >Spronsoship amount can be paid through DD or Cheque in favour of
 >“Mhadei Research Center” payable at Belgaum.
+> Write to us at shdbelgaum[AT]gmail.com
 
 Sponsorship Prospectus
 
