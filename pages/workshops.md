@@ -7,7 +7,7 @@ feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython]
 ---
 
-## Science Toys and Soldering Workshop
+## WORKSHOP I : Science Toys and Soldering Workshop
 
   >## Suitable for
   >5th to 10th standard students
@@ -16,7 +16,7 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
   
 
 This hands-on workshop will be conducted in two sessions. 
-All the material required for the hands-on workshops will be provided to the students.
+All the material required for the workshop will be provided to the students.
 ### Session I :  Making Science Toys from Trash
 
    * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
