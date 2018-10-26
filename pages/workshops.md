@@ -25,7 +25,7 @@ All the material required for the hands-on workshops will be provided to the stu
 ### Session II : Soldering: Making Red Blue Green LED Badge 
    * Soldering training on specially made pcb for SHD India RBG LED badge
 
->Suitable for
+>## Suitable for
 >5th to 10th standard students who have not participated in SHD-2017
 
 
