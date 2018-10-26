@@ -11,11 +11,12 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 
 This workshop will be conducted in two sessions. 
 Session I :  Hands-on workshop - making Science Toys from Trash 
-              *Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
-              *Musical Straw
-              *Balloon Bugle
-              *CD Howercraft
-              *Simple DC Motor 
+
+   * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
+   * Musical Straw
+   * Balloon Bugle
+   * CD Howercraft
+   * Simple DC Motor 
               Flexagon
               Electromagnetic Induction Coil with LED and Magnet
               EMI Motor and Coil with LED   ...... and many more
