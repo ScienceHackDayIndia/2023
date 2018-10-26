@@ -11,16 +11,17 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 
 This workshop will be conducted in two sessions. 
 Session I :  Hands-on workshop - making Science Toys from Trash 
-              * Simple DC Motor 
-              * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
-              * Musical Straw
-              * Balloon Bugle
-              * CD Howercraft
-9. 11. Flexagon
-12. Flying Tumbler
-13. Electromagnetic Induction Coil with LED and Magnet
-14. EMI Motor and Coil with LED 
-15. Coin Motor (Demo)
+              *Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
+              *Musical Straw
+              *Balloon Bugle
+              *CD Howercraft
+              *Simple DC Motor 
+              Flexagon
+              Electromagnetic Induction Coil with LED and Magnet
+              EMI Motor and Coil with LED   ...... and many more
+           
+              
+              
 Session II : Soldering: Making RBG-LED’s SHD Badge 
 
 All the material required for the hands-on workshops will be provided to the students.
