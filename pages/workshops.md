@@ -8,9 +8,11 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 ---
 
 ## Science Toys and Soldering Workshop
->## Suitable for
->5th to 10th standard students
-> **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is same as SHD 2017
+<p>
+  >## Suitable for
+  >5th to 10th standard students
+  > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is same as SHD 2017
+  </P>
 
 This hands-on workshop will be conducted in two sessions. 
 All the material required for the hands-on workshops will be provided to the students.
