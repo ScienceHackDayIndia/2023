@@ -8,6 +8,9 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 ---
 
 ## Science Toys and Soldering Workshop
+>## Suitable for
+>5th to 10th standard students
+> **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is same as SHD 2017
 
 This hands-on workshop will be conducted in two sessions. 
 All the material required for the hands-on workshops will be provided to the students.
@@ -25,8 +28,7 @@ All the material required for the hands-on workshops will be provided to the stu
 ### Session II : Soldering: Making Red Blue Green LED Badge 
    * Soldering training on specially made pcb for SHD India RBG LED badge
 
->## Suitable for
->5th to 10th standard students who have not participated in SHD-2017
+
 
 
 
