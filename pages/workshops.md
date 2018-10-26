@@ -6,15 +6,12 @@ subtitle: "Workshops at SHD India 2018"
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython]
 ---
-
 ## WORKSHOP I : Science Toys and Soldering Workshop
-
   >## Suitable for
   >5th to 10th standard students
   
   > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is same as SHD 2017
   
-
 This hands-on workshop will be conducted in two sessions. 
 All the material required for the workshop will be provided to the students.
 ### Session I :  Making Science Toys from Trash
@@ -31,7 +28,7 @@ All the material required for the workshop will be provided to the students.
 ### Session II : Soldering: Making Red Blue Green LED Badge 
    * Soldering training on specially made pcb for SHD India RBG LED badge
 
-<br>
+***
 
 
 
