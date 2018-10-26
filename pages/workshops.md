@@ -9,8 +9,9 @@ tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 
 ## Science Toys and Soldering Workshop
 
-This workshop will be conducted in two sessions. 
-### Session I :  Hands-on workshop - making Science Toys from Trash
+This hands-on workshop will be conducted in two sessions. 
+All the material required for the hands-on workshops will be provided to the students.
+### Session I :  Making Science Toys from Trash
 
    * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
    * Musical Straw
@@ -19,13 +20,19 @@ This workshop will be conducted in two sessions.
    * Simple DC Motor 
    * Flexagon
    * Electromagnetic Induction Coil with LED and Magnet
-   * AC Generator   ...... **and many more**
-           
-              
+   * AC Generator   ...... **and many more**             
               
 ### Session II : Soldering: Making Red Blue Green LED Badge 
+   * Soldering training on specially made pcb for SHD India RBG LED badge
 
-All the material required for the hands-on workshops will be provided to the students.
+>Suitable for
+>5th to 10th standard students who have not participated in SHD-2017
+
+
+
+
+
+
 
 
 For 5th - 10th standard students
