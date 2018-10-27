@@ -8,25 +8,25 @@ tags: [Workshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 ---
 ### WORKSHOP I : Science Toys and Soldering Workshop
   >### Suitable for
-  >**5th to 10th standard students**
-  
-  > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is the same.
-  
-  > **When** : 3rd November 2018
+  >**5th to 10th standard students**  
+  > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is the same.  
+  > **When** : 3rd November 2018 at 10.00 am (Reporting at 8:45 am)
   
 This hands-on workshop will be conducted in two sessions. 
 All the material required for the workshop will be provided to the students.
-#### Session I :  Making Science Toys from Trash
+
+#### Session II : Soldering: Making Red Blue Green LED Badge 
+   >* Soldering training using specially made pcb for SHD India RBG LED badge
+   >* Students learn the basics of electrical components and soldering
+   
+#### Session II :  Making Science Toys from Trash
 
    >* Maths Blocks square (a+b)2 and cube (a+b)3 
    >* Musical Straw, Balloon Bugle, Flexagon 
    >* CD Howercraft
-   * Simple DC Motor, Electromagnetic Induction, AC Generator   
+   >* Simple DC Motor, Electromagnetic Induction, AC Generator   
    ...... **and many more**             
               
-#### Session II : Soldering: Making Red Blue Green LED Badge 
-   * Soldering training on specially made pcb for SHD India RBG LED badge
-
 ***
 
 ### WORKSHOP II : Microcontroller Programming with Arduino
