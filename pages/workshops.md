@@ -29,14 +29,14 @@ All the material required for the workshop will be provided to the students.
    >* Simple DC Motor, Electromagnetic Induction, AC Generator   
    ...... **and many more**   
    
-**Note:** Participants of this workshop can also join us along with their parents for science demo activities and the valedictory session on Sunday, 4th November at 2:30 pm    
+**Note:** Participants of this workshop can also join us along with their parents for science demo activities and the valedictory session on Sunday, 4th November at 2:30 pm.    
 
 ***
 ***
 
 ### WORKSHOP II : Microcontroller Programming with Arduino
 
-[**Book your ticket here...**](https://www.instamojo.com/shdindia/workshop-i-science-toys-and-soldering/)
+[**Book your ticket here...**](https://www.instamojo.com/shdindia/workshop-ii-microcontroller-programming-with/)
 
   >### Suitable for
   >**7th to 10th standard students**
@@ -47,4 +47,4 @@ Arduino workshop will introduce kids in 7th-10th grade to electronics and progra
 
 Participants will be given Arduino board with some basic electrical components like LEDs, Resistors and Hookup wires.
 
-**Note:** Parents of the participants of this workshop can join us for the valedictory session on Sunday, 4th November at 3:30 pm    
+**Note:** Parents of the participants of this workshop can join us for the valedictory session on Sunday, 4th November at 3:30 pm.    
