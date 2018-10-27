@@ -35,11 +35,16 @@ All the material required for the workshop will be provided to the students.
 ***
 
 ### WORKSHOP II : Microcontroller Programming with Arduino
+
+[**Book your ticket here...**](https://www.instamojo.com/shdindia/workshop-i-science-toys-and-soldering/)
+
   >### Suitable for
   >**7th to 10th standard students**
   
-  > **When** : 4th November 2018
+  > **When** : 4th November 2018 at 10:00 am (Reporting at 8:45 am)
   
 Arduino workshop will introduce kids in 7th-10th grade to electronics and programming. Students learn the basics of programming on an Arduino micro controller. This workshop is mainly intended for students who have little to no experience with computer programming or electronics.
 
 Participants will be given Arduino board with some basic electrical components like LEDs, Resistors and Hookup wires.
+
+**Note:** Parents of the participants of this workshop can join us for the valedictory session on Sunday, 4th November at 3:30 pm    
