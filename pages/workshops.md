@@ -18,13 +18,11 @@ This hands-on workshop will be conducted in two sessions.
 All the material required for the workshop will be provided to the students.
 #### Session I :  Making Science Toys from Trash
 
-   * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
-   * Musical Straw    * Balloon Bugle
-   * CD Howercraft
-   * Simple DC Motor 
-   * Flexagon
-   * Electromagnetic Induction Coil with LED and Magnet
-   * AC Generator   ...... **and many more**             
+   >* Maths Blocks square (a+b)2 and cube (a+b)3 
+   >* Musical Straw, Balloon Bugle, Flexagon 
+   >* CD Howercraft
+   * Simple DC Motor, Electromagnetic Induction, AC Generator   
+   ...... **and many more**             
               
 #### Session II : Soldering: Making Red Blue Green LED Badge 
    * Soldering training on specially made pcb for SHD India RBG LED badge
