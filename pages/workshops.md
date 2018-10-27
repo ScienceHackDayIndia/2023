@@ -7,7 +7,7 @@ feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Workshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython, ExpEYES]
 ---
 ### WORKSHOP I : Science Toys and Soldering Workshop
-[Book your ticket here...](https://www.instamojo.com/shdindia/workshop-i-science-toys-and-soldering/)
+[**Book your ticket here...**](https://www.instamojo.com/shdindia/workshop-i-science-toys-and-soldering/)
 
   >### Suitable for
   >**5th to 10th standard students**  
