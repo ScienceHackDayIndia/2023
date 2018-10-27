@@ -27,7 +27,8 @@ All the material required for the workshop will be provided to the students.
    >* Musical Straw, Balloon Bugle, Flexagon 
    >* CD Howercraft
    >* Simple DC Motor, Electromagnetic Induction, AC Generator   
-   ...... **and many more**             
+   ...... **and many more**   
+   
 **Note:** Participants of this workshop can also join us along with their parents for science demo activities and the valedictory session on Sunday, 4th November at 2:30 pm    
 
 ***
