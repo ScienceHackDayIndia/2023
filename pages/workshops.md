@@ -3,9 +3,10 @@ layout: page
 title : Workshops  
 permalink: /workshops/
 subtitle: "Learn by doing" 
-feature-img: "assets/img/pexels/computer.jpeg"
+feature-img: "assets/img/pexels/stargazingsmall.jpg"
 tags: [Workshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython, ExpEYES]
 ---
+
 ### WORKSHOP I : Science Toys and Soldering Workshop
 [**Book your ticket here...**](https://www.instamojo.com/shdindia/workshop-i-science-toys-and-soldering/)
 
