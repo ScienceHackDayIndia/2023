@@ -2,15 +2,15 @@
 layout: page
 title : Workshops  
 permalink: /workshops/
-subtitle: "Workshops at SHD India 2018" 
+subtitle: "Learn by doing" 
 feature-img: "assets/img/pexels/computer.jpeg"
-tags: [Woekshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython]
+tags: [Workshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Micropython, ExpEYES]
 ---
 ### WORKSHOP I : Science Toys and Soldering Workshop
   >### Suitable for
   >**5th to 10th standard students**
   
-  > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is same as SHD 2017
+  > **NOT** for the students who have participated in SHD-2017 workshop since content of the workshop is the same.
   
   > **When** : 3rd November 2018
   
@@ -19,8 +19,7 @@ All the material required for the workshop will be provided to the students.
 #### Session I :  Making Science Toys from Trash
 
    * Maths Blocks (a+b)2  and Binomial Cube (a+b)3 
-   * Musical Straw
-   * Balloon Bugle
+   * Musical Straw    * Balloon Bugle
    * CD Howercraft
    * Simple DC Motor 
    * Flexagon
