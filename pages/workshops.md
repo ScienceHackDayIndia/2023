@@ -48,4 +48,24 @@ Arduino workshop will introduce kids in 7th-10th grade to electronics and progra
 
 Participants will be given Arduino board with some basic electrical components like LEDs, Resistors and Hookup wires.
 
-**Note:** Parents of the participants of this workshop can join us for the valedictory session on Sunday, 4th November at 3:30 pm.    
+**Note:** Parents of the participants of this workshop can join us for the valedictory session on Sunday, 4th November at 3:30 pm.   
+***
+***
+### Python Programming Workshops 
+Come learn the basics of Python, one of the best coding languages for beginner coders. This workshop is perfect for those who have little to no programming experience, or those who just want to learn Python! 
+
+**Note:** To attend these workshops one must book the [Hacker Participant Ticket](https://www.instamojo.com/shdindia/science-hack-day-hacker-participant-ticket/?ref=store). Along with the two python workshops you can participate in hacking/making activities on Day-1 and Day-2.
+
+  >### Suitable for
+  >**College Students of Science and Engineering Background, Physics/Electronics Teachers**  
+  > **When** : 2nd November 2018 at 3.00 pm (Reporting at 2:30 pm)
+Ref. books/material will be provided in digital form.
+
+#### Python Workshop I : Python 101 
+   >* Getting started with python programming
+
+#### Python Workshop II : Science and Engineering Experiments with ExpEYES- Python powered Science Lab 
+
+   >* Basic electrical/electronics/mechanics experiments and data logging with python   
+   
+   
