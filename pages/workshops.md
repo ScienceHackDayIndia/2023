@@ -18,7 +18,7 @@ tags: [Workshops, Python, Science Toys, Soldering, Arduino, Microcontroller, Mic
 This hands-on workshop will be conducted in two sessions. 
 All the material required for the workshop will be provided to the students.
 
-#### Session II : Soldering: Making Red Blue Green LED Badge 
+#### Session I : Soldering: Making Red Blue Green LED Badge 
    >* Soldering training using specially made pcb for SHD India RBG LED badge
    >* Students learn the basics of electrical components and soldering
    
