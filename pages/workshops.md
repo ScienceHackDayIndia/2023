@@ -54,7 +54,7 @@ Participants will be given Arduino board with some basic electrical components l
 ### Python Programming Workshops 
 Come learn the basics of Python, one of the best coding languages for beginner coders. This workshop is perfect for those who have little to no programming experience, or those who just want to learn Python! 
 
-**Note:** To attend these workshops one must book the [Hacker Participant Ticket](https://www.instamojo.com/shdindia/science-hack-day-hacker-participant-ticket/?ref=store). Along with the two python workshops you can participate in hacking/making activities guided by SHD mentors on Day-1 and Day-2.
+**Note:** To attend these workshops one must book the [**Hacker Participant Ticket**](https://www.instamojo.com/shdindia/science-hack-day-hacker-participant-ticket/). Along with the two python workshops you can participate in hacking/making activities guided by SHD mentors on Day-1 and Day-2.
 
   >### Suitable for
   >**College Students of Science and Engineering Background, Physics/Electronics Teachers**  
@@ -63,9 +63,10 @@ Ref. books/material will be provided in digital form.
 
 #### Python Workshop I : Python 101 
    >* Getting started with python programming
+   >* 2nd November 2018 at 3.00 pm
 
 #### Python Workshop II : Science and Engineering Experiments with ExpEYES- Python powered Science Lab 
 
    >* Basic electrical/electronics/mechanics experiments and data logging with python   
-   
+   >* 3rd November 2018 at 2.00 pm
    
