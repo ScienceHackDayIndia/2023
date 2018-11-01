@@ -55,6 +55,7 @@ Participants will be given Arduino board with some basic electrical components l
 Come learn the basics of Python, one of the best coding languages for beginner coders. This workshop is perfect for those who have little to no programming experience, or those who just want to learn Python! 
 
 **Note 1:** To attend these workshops one must book the [**Hacker Participant Ticket**](https://www.instamojo.com/shdindia/science-hack-day-hacker-participant-ticket/). After booking the ticket submit this [**REGISTRATION FORM**](https://drive.google.com/open?id=1nxdDHwvCzWc2n7CIDJLFw85gVErfP6XBDMyawNGXrK0). Along with the two python workshops you can participate in hacking/making activities guided by SHD mentors on Day-1 and Day-2.
+
 **Note 2:** If you wish to attend only python workshops and not the other activities, while booking a ticket use this code "PYTHON" to get the ticket at reduced price.
 
   >### Suitable for
