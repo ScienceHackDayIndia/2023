@@ -56,7 +56,7 @@ Come learn the basics of Python, one of the best coding languages for beginner c
 
 **Note 1:** To attend these workshops one must book the [**Hacker Participant Ticket**](https://www.instamojo.com/shdindia/science-hack-day-hacker-participant-ticket/). After booking the ticket submit this [**REGISTRATION FORM**](https://drive.google.com/open?id=1nxdDHwvCzWc2n7CIDJLFw85gVErfP6XBDMyawNGXrK0). Along with the two python workshops you can participate in hacking/making activities guided by SHD mentors on Day-1 and Day-2.
 
-**Note 2:** If you wish to attend only python workshops and not the other activities, while booking a ticket use this code "PYTHON" to get the ticket at reduced price.
+**Note 2:** If you wish to attend only python workshops and not the other activities, book this ticket at a lower price [**Python Workshops**](https://www.instamojo.com/shdindia/python-workshops/)
 
   >### Suitable for
   >**College Students of Science and Engineering Background, Physics/Electronics Teachers**  
