@@ -1,22 +1,9 @@
 # Science Hack Day India 
-### Belgaum 2018
+### Belgaum 2019
 
-#### 2nd to 4th November 2018, Sankalp Bhoomi Farm Resort, Belgaum
+#### 18th to 20th October 2019, Sankalp Bhoomi Farm Resort, Belgaum
 
 
 #### Theme Credits
-**Type on Strap** 
-
-* Responsive design
-* Portfolio page for your projects
-* Tags compatibility
-* Bootstrap : [Get Bootstrap](http://getbootstrap.com/)
-* Search feature : [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Math Rendering : [KateX](https://github.com/Khan/KaTeX)
-* Seo Tags : [Jekyll-seo-tag](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
-* Syntax Highlighting: Easily customisable [Base16](https://github.com/chriskempson/base16)
-* Free of rights images from [pexels](https://www.pexels.com/)
-
-#### License
-
-[The MIT License (MIT)](https://raw.githubusercontent.com/Sylhare/Type-on-Strap/master/LICENSE)
+* This template is made with <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+* Original base animated SVG circuit by [Lentie Ward](https://codepen.io/lentilz/pen/NyBEBw)
