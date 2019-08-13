@@ -1,6 +1,7 @@
 /* Base */
 body {
   line-height: 1.7;
+  overflow-x: hidden;
   color: #cfcfd1;
   font-weight: 300;
   font-size: 1rem;
