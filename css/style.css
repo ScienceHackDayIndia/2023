@@ -91,6 +91,16 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+.video-frames {
+  width: 100% !important;
+}
+
+@media (max-width: 500px) {
+  .video-frames {
+    height: auto;
+  }
+}
+
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
