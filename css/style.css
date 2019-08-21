@@ -143,6 +143,15 @@ h1, h2, h3, h4, h5,
     width: 100px;
     height: 2px; }
 
+.site-section#sponsors {
+  background-color: #fff;
+}
+
+.site-section#sponsors .site-section-heading h2,
+.site-section#sponsors p {
+  color: #232531;
+}
+
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
 
