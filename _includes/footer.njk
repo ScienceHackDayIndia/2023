@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <p>
+    built with
+    <a href="https://www.11ty.dev/" rel="noopener">eleventy</a>
+  </p>
+  <nav aria-label="Footer">
+    <ol class="nav-footer">
+      {% for page in collections.footernav %}
+        <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+</footer>

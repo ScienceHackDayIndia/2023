@@ -1,0 +1,10 @@
+<header class="site-header">
+  <a href="#content" class="skip-link">Skip to content</a>
+  <nav class="nav" aria-label="Main">
+  <ol class="nav__items">
+    {% for item in mainnav %}
+    <li class="nav__item"><a href="{{ item.url }}" class="nav__link" {% if item.url === page.url or (item.url !== '/' and item.url in page.url)  %}aria-current="page"{% endif %}>{{ item.name }}</a></li>
+    {% endfor %}
+  </ol>
+  </nav>
+</header>
