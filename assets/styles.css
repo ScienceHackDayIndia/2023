@@ -143,8 +143,13 @@ section > * + * {
   padding-bottom: 6rem;
 }
 
+.hero-section .hero-title {
+  max-width: 46rem;
+}
+
 .hero-info {
   margin: 1.75rem 0 4rem;
+  font-size: clamp(1.35rem, calc(1.15rem + 1.02vw), 1.88rem);
 }
 
 .text-container {
@@ -160,6 +165,10 @@ section > * + * {
 .about-section {
   padding-top: 3rem;
   padding-bottom: clamp(6.00rem, calc(3.46rem + 12.68vw), 12.50rem);
+}
+
+.about-section .section-title{
+  max-width: 24rem;
 }
 
 .about-section iframe {
@@ -181,6 +190,9 @@ section > * + * {
 .info-section {
   padding-top: 3rem;
   padding-bottom: clamp(6.00rem, calc(3.46rem + 12.68vw), 12.50rem);
+}
+.info-section .section-title{
+  max-width: 35rem;
 }
 
 @media (min-width: 1024px) {
