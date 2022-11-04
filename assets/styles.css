@@ -158,6 +158,10 @@ section > * + * {
   padding: 2rem 1.25rem;
 }
 
+.text-container > ul, .text-container > ol {
+  padding-left: 2rem;
+}
+
 .text-container > p + p {
   margin-top: 1rem;
 }
