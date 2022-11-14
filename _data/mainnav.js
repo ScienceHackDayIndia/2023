@@ -1,11 +1,11 @@
 module.exports = [
     {
         "name": "About",
-        "url": "#about"
+        "url": "/#about"
     },
     {
         "name": "Sponsors",
-        "url": "#sponsors"
+        "url": "/#sponsors"
     },
     {
         "name": "CoC",

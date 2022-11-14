@@ -69,6 +69,19 @@ when an element receives focus via the mouse. */
   margin: var(--spacing) auto;
 }
 
+@media (min-width: 768px) {
+  .nav.mainnav {
+    display: flex;
+    align-items: center;
+  }
+}
+.homelink {
+  display: inline-flex;
+}
+.homelink img {
+  max-height: 90px;
+}
+
 .nav__items {
   display: flex;
   flex-wrap: wrap;
@@ -85,6 +98,7 @@ when an element receives focus via the mouse. */
 .nav__link {
   color: var(--color-green);
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav__link[aria-current=page] {
@@ -93,7 +107,7 @@ when an element receives focus via the mouse. */
 
 .nav__link:hover {
   text-decoration: underline;
-}
+} 
 
 /* Typography */
 h1, h2, h3, h4 {
