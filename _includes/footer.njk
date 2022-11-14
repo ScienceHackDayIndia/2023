@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <nav aria-label="Footer" class="site-link">
+    <h2 class="footer-header">Other links</h2>
+    <ul class="nav-footer">
+      {% for item in footernav %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <nav aria-label="Social" class="site-link">
+    <h2 class="footer-header">Connect with us</h2>
+    <ul class="nav-footer">
+      {% for item in sociallinks %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <p class="footer-tech">
+    built with
+    <a href="https://www.11ty.dev/" rel="noopener">eleventy</a>
+  </p>
+</footer>
