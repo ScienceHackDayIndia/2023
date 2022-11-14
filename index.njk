@@ -5,13 +5,15 @@ layout: base.njk
 <div class="hero-section">
   <h1 class="hero-title">Science Hack Day India 2022</h1>
   <p class="hero-info">
-    December 23rd - 25th<br/>
-    Belgaum, India
+    December 23rd - 25th, 2022<br/>
+    Sankalp Bhoomi Farm Resort, Belgaum, India
   </p>
-  <a class="primary-btn" href="">Buy Tickets</a>
-  <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" xmlns="http://www.w3.org/2000/svg" height="114" id="screenshot-ccaedbc0-13ea-11ed-81ec-45b47c0607c3" viewBox="866 820 1440 114" style="-webkit-print-color-adjust: exact;" fill="none" version="1.1">
-    <path class="shape-fill" rx="0" ry="0" d="M1416.8,930.23C1956.8,931.43,2306,841.57,2306,820L2306,934L866,934L866,820C866,841.93,882.32,933.83,1416.8,930.23ZZ" style="fill: rgb(30, 28, 64); fill-opacity: 1;"/>
-  </svg>
+  <a class="primary-btn">Coming Soon</a>
+  <div class="custom-shape-divider-wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" >
+      <path  d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill" fill="#1E1C40" fill-opacity="1"></path>
+    </svg>
+  </div>
 </div>
 <section class="about-section section-dark">
   <h2 class="section-title">What is Science Hack Day?</h2>
@@ -42,7 +44,7 @@ layout: base.njk
       title="Video showing glimpses from Science Hack Day India 2022" frameborder="0" allowfullscreen></iframe>
   </div>
 </section>
-<section class="info-section">
+<section class="info-section" id="about">
   <h2 class="section-title">What happens at Science Hack Day India?</h2>
   <h3 class="section-subtitle">who can participate?</h3>
   <div class="text-container">
@@ -63,8 +65,8 @@ layout: base.njk
       <h3 class="section-subtitle">when is it going to happen?</h3>
       <div class="text-container">
         <ul>
-          <li>Day-0 : 23 December 2022 (Only for SHD Hackers and Resident Hackers)</li>
-          <li>Day-1 and Day-2 : 24th and 25th December 2022</li>
+          <li><b>Day-0 </b>: 23 December 2022 (Only for SHD Hackers and Resident Hackers)</li>
+          <li><b>Day-1 and Day-2 </b>: 24th and 25th December 2022</li>
         </ul>
       </div>
     </div>
@@ -72,10 +74,10 @@ layout: base.njk
       <h3 class="section-subtitle">where is it happening?</h3>
       <div class="text-container">
         <p>
-          <a href="http://sankalphospitality.in/">Sankalp Bhoomi Farm Resort</a>, Belgaum, Karnataka State, India
-          (<a href="https://goo.gl/maps/qmzPcrah6ZR53syj8">Google map link</a>)
-          <br/>
-          Sankalpbhoomi -The farm resort, totally in tune with nature in its rustic
+          <b><a href="http://sankalphospitality.in/">Sankalp Bhoomi Farm Resort</a>, Belgaum, Karnataka State, India
+          (<a href="https://goo.gl/maps/qmzPcrah6ZR53syj8">map</a>)</b>
+          <br/><br/>
+          The farm resort, totally in tune with nature in its rustic
           uncorrupted state, stands testimony to saving nature. It was once an abandoned
           quarry, today natures glory restored. The resort resembles an enchanting oasis,
           with a thick set of trees, sprawling lawns, and a large lagoon surrounded by
@@ -117,14 +119,35 @@ layout: base.njk
     </p>
   </div>
 </section>
-<section class="sponsor-section section-dark">
+<section class="sponsor-section section-dark" id="sponsors">
+  <div class="custom-shape-divider-wave1">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" >
+      <path  d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill" fill="#3C396D" fill-opacity="1"></path>
+    </svg>
+  </div>
   <h2 class="section-title">Sponsors</h2>
   <h3 class="section-subtitle">Organizing Partners</h3>
   <ul class="sponsor-items">
-    <li class="sponsor-item"></li>
+    {% for item in sponsors %}
+      {% if item.type == "organizing" %}
+        <li class="sponsor-item">
+          <a href="{{ item.url }}">
+            <img src="{{ item.image }}" alt="{{ item.name }}" />
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   </ul>
   <h3 class="section-subtitle">Community Partners</h3>
   <ul class="sponsor-items">
-    <li class="sponsor-item"></li>
+    {% for item in sponsors %}
+      {% if item.type == "community" %}
+        <li class="sponsor-item">
+          <a href="{{ item.url }}">
+            <img src="{{ item.image }}" alt="{{ item.name }}" />
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </section>

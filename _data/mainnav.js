@@ -1,10 +1,14 @@
 module.exports = [
     {
-        "name": "CoC",
-        "url": "/coc/"
+        "name": "About",
+        "url": "#about"
     },
     {
-        "name": "Archive",
-        "url": "/archive/"
+        "name": "Sponsors",
+        "url": "#sponsors"
+    },
+    {
+        "name": "CoC",
+        "url": "/coc/"
     },
 ];
