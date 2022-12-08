@@ -1,7 +1,14 @@
 ---
 layout: base.njk
 ---
-<div class="container">
-  <h1 id="title">{{ title }}</h1>
+<div class="page-title-section">
+  <h1 id="title" class="page-title">{{ title }}</h1>
+  <div class="custom-shape-divider-wave">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" >
+      <path  d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill" fill="#1E1C40" fill-opacity="1"></path>
+    </svg>
+  </div>
+</div>
+<div class="container section-dark">
   {{ content | safe }}
 </div>
