@@ -21,7 +21,10 @@ title: Schedule
           <li class="date-agenda-item">
             <span class="time">{{ item.time }}</span>
             <span class="separator">:</span>
-            <span class="description">{{ item.description }}</span>
+            <span class="description">
+              <span>{{ item.description }}</span>
+              <span class="location">{{ item.location }}</span>
+            </span>
           </li>
         {% endfor %}
       </ul>

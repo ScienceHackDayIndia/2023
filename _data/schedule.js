@@ -1,91 +1,108 @@
 module.exports = [
     {
         "key": "day0",
-        "name": "Day 0, 23rd Dec.",
+        "name": "23rd Dec, Fri",
         "schedule": [
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast followed by some really big line that tests out the grid extent"
+                "time": "11:00 AM",
+                "description": "Hackers Checkin and Lunch",
+                "location": "Dhaba",
             },
             {
-                "time": "12:00 AM",
-                "description": "Morning breakfast"
-            },
-            {
-                "time": "2:00 AM",
-                "description": "Morning breakfast"
-            },
-            {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
-            },
-            {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
-            },
-            {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "6:30 PM",
+                "description": "Introductions/BoF",
+                "location": "Main Auditorium",
             },
         ]
     },
     {
         "key": "day1",
-        "name": "Day 1, 24th Dec.",
+        "name": "24th Dec, Sat",
         "schedule": [
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "8:30 AM",
+                "description": "Breakfast",
+                "location": "Dhaba",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "9:00 AM",
+                "description": "Registration",
+                "location": "Entrance",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "10:15 AM",
+                "description": "Inauguration",
+                "location": "Main auditorium",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "11:30 AM",
+                "description": "1st Sci toy kids workshop",
+                "location": "Main auditorium",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "1:30 PM",
+                "description": "Lunch",
+                "location": "Dhaba",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "2:30 PM",
+                "description": "Demo and Games",
+                "location": "Main auditorium",
+            },
+            {
+                "time": "3:00 PM",
+                "description": "Micropython workshop",
+                "location": "Hacking area",
+            },
+            {
+                "time": "4:30 PM",
+                "description": "High tea",
+                "location": "Dhaba",
+            },
+            {
+                "time": "6:30 PM",
+                "description": "Lightning talk",
+                "location": "Hacking area",
+            },
+            {
+                "time": "10:00 PM",
+                "description": "Star gazing",
             },
         ]
     },
     {
         "key": "day2",
-        "name": "Day 2, 25th Dec.",
+        "name": "25th Dec, Sun",
         "schedule": [
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "8:30 AM",
+                "description": "Breakfast",
+                "location": "Dhaba",
             },
             {
                 "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "description": "2nd Sci toy workshop",
+                "location": "Main auditorium",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "1:00 PM",
+                "description": "Lunch",
+                "location": "Dhaba",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "2:00 PM",
+                "description": "Demo and Games",
+                "location": "Main auditorium",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "5:00 PM",
+                "description": "Valedictory High Tea",
+                "location": "Dhaba",
             },
             {
-                "time": "10:00 AM",
-                "description": "Morning breakfast"
+                "time": "8:30 PM",
+                "description": "Dinner",
+                "location": "Dhaba",
             },
         ]
     },

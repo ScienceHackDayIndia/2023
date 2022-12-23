@@ -390,4 +390,10 @@ section > * + * {
 }
 .date-agenda-item .description {
   font-size: 1.175rem;
+  display: flex;
+  flex-direction: column;
+}
+.date-agenda-item .description .location {
+  font-size: 0.85rem;
+  color: #b7b6b6;
 }
