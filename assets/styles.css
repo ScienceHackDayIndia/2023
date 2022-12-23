@@ -101,6 +101,7 @@ when an element receives focus via the mouse. */
   font-weight: bold;
 }
 
+
 .nav__link[aria-current=page] {
   text-decoration: underline;
 }
@@ -108,6 +109,15 @@ when an element receives focus via the mouse. */
 .nav__link:hover {
   text-decoration: underline;
 } 
+
+.nav__link.primary {
+  color: var(--color-white);
+  padding: 0.35rem 1.5rem;
+  border: 5px solid var(--color-pink);
+}
+.nav__link.primary:hover {
+  background-color: var(--color-pink);
+}
 
 /* Typography */
 h1, h2, h3, h4 {
@@ -201,6 +211,13 @@ section > * + * {
 .hero-info {
   margin: 2.5rem 0 5rem;
   font-size: clamp(1.25rem, calc(1.15rem + 1.02vw), 1.75rem);
+}
+
+.page-title-section {
+  padding-bottom: 120px; /* Height of the svg */
+}
+.page-title-section .custom-shape-divider-wave {
+  margin-top: 0;
 }
 
 .text-container {
@@ -327,4 +344,56 @@ section > * + * {
   border-top: 1px solid gray;
   text-align: center;
   padding-top: 1rem;
+}
+
+/* Schedule */
+.schedule {
+  padding: var(--spacing) 0;
+}
+.date-tabs {
+  margin-bottom: 2rem;
+}
+.date-tabs [role=tab] {
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  border: 5px solid var(--color-pink);
+  color: var(--color-white);
+  margin: 0 0.5rem 0.25rem;
+  font-weight: 600;
+  font-size: 18px;
+}
+.date-tabs [role=tab][aria-selected=true] {
+  background-color: var(--color-pink);
+}
+
+.date-agenda {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.date-agenda-item {
+  display: grid;
+  grid-template-columns: clamp(6.50rem, calc(6.07rem + 2.14vw), 9.00rem) clamp(1.50rem, calc(0.86rem + 3.21vw), 3.75rem) auto;
+  border-bottom: 1px solid var(--color-light-purple);
+  padding: 1rem 0.25rem;
+  list-style-type: none;
+}
+
+.date-agenda-item .time {
+  font-family: var(--title-font);
+  font-size: clamp(1.25rem, calc(1.19rem + 0.41vw), 1.60rem);
+  text-align: right;
+}
+.date-agenda-item .separator {
+  text-align: center;
+  font-family: var(--title-font);
+}
+.date-agenda-item .description {
+  font-size: 1.175rem;
+  display: flex;
+  flex-direction: column;
+}
+.date-agenda-item .description .location {
+  font-size: 0.85rem;
+  color: #b7b6b6;
 }

@@ -4,8 +4,8 @@ module.exports = [
         "url": "/#about"
     },
     {
-        "name": "Register",
-        "url": "https://shdindia.myinstamojo.com/"
+        "name": "Schedule",
+        "url": "/schedule"
     },
     {
         "name": "Sponsors",
@@ -14,5 +14,10 @@ module.exports = [
     {
         "name": "CoC",
         "url": "/coc/"
+    },
+    {
+        "name": "Register",
+        "url": "https://shdindia.myinstamojo.com/",
+        "type": "primary",
     },
 ];
