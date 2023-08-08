@@ -15,6 +15,11 @@ module.exports = [
         "url": "https://www.instagram.com/shdindia/"
     },
     {
+        "name": "GitHub",
+        "icons": "CoC",
+        "url": "https://github.com/ScienceHackDayIndia/sciencehackday.in"
+    },
+    {
         "name": "Email",
         "icons": "CoC",
         "url": "mailto:shdbelgaum@gmail.com"
