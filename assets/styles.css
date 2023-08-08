@@ -1,13 +1,12 @@
 :root {
-  --color-light-purple: #564b81;
-  --color-purple: #3c396d;
-  --color-dark-purple: #1e1c40;
-  --color-green: #97d76d;
-  --color-white: #FFFFFF;
+  --color-light-blue: #46ccff;
+  --color-blue: #244a84;
+  --color-dark-blue: #172f52;
+  --color-yellow: #f3dcaa;
+  --color-white: #d9f5ff;
   --color-black: #000000;
-  --color-pink: #ac47aa;
-  --title-font: 'Archivo Black', sans-serif;
-  --font: 'Open Sans', sans-serif;
+  --title-font: 'Montserrat Alternates', sans-serif;
+  --font: 'Roboto Mono', monospace;
   --spacing: clamp(1.25rem, calc(0.88rem + 1.62vw), 2rem);;
 }
 
@@ -18,14 +17,14 @@
 }
 
 body {
-  background-color: var(--color-purple);
+  background-color: var(--color-blue);
   color: var(--color-white);
   font-size: 18px;
   line-height: 1.5;
   font-family: var(--font);
 }
 
-/* Hide focus styles if they're not needed, for example, 
+/* Hide focus styles if they're not needed, for example,
 when an element receives focus via the mouse. */
 :focus:not(:focus-visible) {
   outline: 0;
@@ -33,7 +32,7 @@ when an element receives focus via the mouse. */
 
 /* Show focus styles on keyboard focus. */
 :focus-visible {
-  outline: 3px solid var(--color-green);
+  outline: 3px solid var(--color-yellow);
   outline-offset: 3px;
 }
 
@@ -48,6 +47,7 @@ when an element receives focus via the mouse. */
   left: calc((100vw - 1400px)/2);
   background: var(--color-pink);
   color: var(--color-white);
+  background-color: var(--color-dark-blue);
   padding: 1rem 2rem;
   font-weight: 600;
 }
@@ -66,7 +66,7 @@ when an element receives focus via the mouse. */
 
 .nav {
   max-width: 1400px;
-  margin: var(--spacing) auto;
+  margin: calc(var(--spacing) / 2) auto 0;
 }
 
 @media (min-width: 768px) {
@@ -88,7 +88,6 @@ when an element receives focus via the mouse. */
   list-style: none;
   width: fit-content;
   margin-left: auto;
-  background: var(--color-purple);
 }
 
 .nav__item {
@@ -96,7 +95,7 @@ when an element receives focus via the mouse. */
 }
 
 .nav__link {
-  color: var(--color-green);
+  color: var(--color-yellow);
   text-decoration: none;
   font-weight: bold;
 }
@@ -108,7 +107,7 @@ when an element receives focus via the mouse. */
 
 .nav__link:hover {
   text-decoration: underline;
-} 
+}
 
 .nav__link.primary {
   color: var(--color-white);
@@ -125,8 +124,13 @@ h1, h2, h3, h4 {
   margin: 1rem 0;
 }
 .hero-title {
-  font-size: clamp(3.00rem, calc(2.41rem + 2.93vw), 4.50rem);
-  line-height: 1.2;
+  font-family: 'Monoton', monospace;
+  font-size: clamp(3.00rem, calc(2.14rem + 4.29vw), 6.00rem);
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-yellow);
 }
 
 .page-title {
@@ -138,20 +142,22 @@ h1, h2, h3, h4 {
   font-size: clamp(2.00rem, calc(1.80rem + 0.98vw), 2.50rem);
   line-height: 1.2;
   margin-bottom: clamp(1.25rem, calc(0.37rem + 4.39vw), 3.50rem);
+
 }
 
 .section-subtitle {
   font-size: clamp(1.39rem, calc(1.31rem + 0.41vw), 1.60rem);
-  color: var(--color-green)
+  color: var(--color-yellow)
 }
 
 /* Components */
 .primary-btn {
   display: inline-block;
   padding: 0.8rem 1.75rem;
-  color: var(--color-white);
-  background-color: var(--color-pink);
-  box-shadow: 4px 4px 0 0 var(--color-black);
+  color: var(--color-dark-blue);
+  background-color: var(--color-yellow);
+  outline: 5px solid var(--color-yellow);
+  outline-offset: 5px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -186,6 +192,33 @@ h1, h2, h3, h4 {
   height: 120px;
 }
 
+.illustration {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.illustration > img {
+  position: absolute;
+}
+
+.illustration .illustration-geometry {
+  right: 0;
+  top: 0;
+}
+
+.illustration .illustration-head {
+  right: 0.75rem;
+  top: 7.5rem;
+  opacity: 0.3;
+}
+@media (max-width: 1024px) {
+  .illustration .illustration-head {
+    display: none;
+  }
+}
+
 /* Sections */
 section > * + * {
   margin-top: var(--spacing);
@@ -196,7 +229,7 @@ section > * + * {
 }
 .section-dark {
   padding: max(calc((100vw - 1440px) / 2 + var(--spacing)), var(--spacing));
-  background: var(--color-dark-purple);
+  background: var(--color-dark-blue);
 }
 
 .hero-section {
@@ -205,25 +238,26 @@ section > * + * {
 }
 
 .hero-section .hero-title {
-  max-width: 46rem;
+  max-width: 60rem;
+}
+
+.hero-section .hero-cta {
+  display: flex;
+  justify-content: center;
 }
 
 .hero-info {
   margin: 2.5rem 0 5rem;
-  font-size: clamp(1.25rem, calc(1.15rem + 1.02vw), 1.75rem);
+  font-size: clamp(1.50rem, calc(1.07rem + 2.14vw), 3.00rem);
+  font-family: var(--title-font);
+  font-weight: 700;
 }
 
 .page-title-section {
-  padding-bottom: 120px; /* Height of the svg */
+  padding: var(--spacing);
 }
 .page-title-section .custom-shape-divider-wave {
   margin-top: 0;
-}
-
-.text-container {
-  background-color: var(--color-light-purple);
-  box-shadow: 6px 6px 0 0 var(--color-black);
-  padding: 2rem 1.25rem;
 }
 
 .text-container > ul, .text-container > ol {
@@ -231,7 +265,7 @@ section > * + * {
 }
 
 .text-container a {
-  color: var(--color-green)
+  color: var(--color-yellow)
 }
 
 .text-container > p + p {
@@ -244,12 +278,11 @@ section > * + * {
 }
 
 .about-section .section-title{
-  max-width: 24rem;
+  text-align: center;
 }
 
 .about-section iframe {
   max-width: 100%;
-  margin-top: 2.5rem;
 }
 
 @media (min-width: 1024px) {
@@ -257,9 +290,10 @@ section > * + * {
     display: flex;
     flex-direction: row-reverse;
     gap: 3rem;
+    align-items: center;
   }
   .about-section .flex-container .text-container {
-    max-width: 60%;
+    max-width: 50%;
   }
 }
 
@@ -307,7 +341,7 @@ section > * + * {
   width: 18rem;
   height: 7.5rem;
   background: var(--color-white);
-  box-shadow: 10px 10px 0 0 var(--color-green);
+  box-shadow: 10px 10px 0 0 var(--color-yellow);
 }
 .sponsor-item img {
   max-width: 100%;
@@ -322,7 +356,7 @@ section > * + * {
   padding-bottom: 2.5rem;
 }
 .site-footer a {
-  color: var(--color-green)
+  color: var(--color-yellow)
 }
 .site-link {
   display: flex;
@@ -374,7 +408,7 @@ section > * + * {
 .date-agenda-item {
   display: grid;
   grid-template-columns: clamp(6.50rem, calc(6.07rem + 2.14vw), 9.00rem) clamp(1.50rem, calc(0.86rem + 3.21vw), 3.75rem) auto;
-  border-bottom: 1px solid var(--color-light-purple);
+  border-bottom: 1px solid var(--color-light-blue);
   padding: 1rem 0.25rem;
   list-style-type: none;
 }
