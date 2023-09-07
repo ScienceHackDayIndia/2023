@@ -26,7 +26,7 @@ body {
 
 /* Hide focus styles if they're not needed, for example,
 when an element receives focus via the mouse. */
-:focus:not(:focus-visible) {
+:focus:not(:focus-visible):not(.primary-btn) {
   outline: 0;
 }
 
@@ -161,6 +161,13 @@ h1, h2, h3, h4 {
   font-weight: 600;
   text-decoration: none;
 }
+.primary-btn:hover {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+}
+.primary-btn:focus-visible {
+  outline: 7px solid var(--color-light-blue);
+}
 
 .custom-shape-divider-wave {
   position: absolute;
@@ -244,6 +251,12 @@ section > * + * {
 .hero-section .hero-cta {
   display: flex;
   justify-content: center;
+}
+
+.hero-section .primary-btn {
+  font-size: 2rem;
+  width: min(90%, 600px);
+  text-align: center;
 }
 
 .hero-info {
