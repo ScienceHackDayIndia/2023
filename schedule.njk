@@ -1,21 +1,19 @@
 ---
 layout: page.njk
 title: Schedule
+class: star-bg
 ---
 <div class="schedule">
-  <div class="date-tabs" role="tablist" aria-label="Dates">
-    {% for date in schedule %}
-    <button id="{{ date.key }}-tab"
-      role="tab"
-      aria-selected="{% if date.key == 'day0' %}true{% else %}false{% endif %}"
-      aria-controls="{{ date.key }}-panel"
-      tabindex="{% if date.key == 'day0' %}0{% else %}-1{% endif %}">
-      {{ date.name }}
-    </button>
-    {% endfor %}
-  </div>
   {% for date in schedule %}
-    <div id="{{ date.key }}-panel" role="tabpanel" tabindex="0" aria-labelledby="{{ date.key }}-tab" {% if date.key != 'day0' %}hidden{% endif %}>
+    <button id="{{ date.key }}-btn"
+      type="button"
+      aria-expanded="true"
+      onclick="toggleDisclosure(this.id);"
+      class="schedule-date"
+      aria-controls="{{ date.key }}-panel">
+      <h2 class="section-title">{{ date.name }}</h2>
+    </button>
+    <div id="{{ date.key }}-panel">
       <ul class="date-agenda">
         {% for item in date.schedule %}
           <li class="date-agenda-item">
@@ -33,71 +31,18 @@ title: Schedule
 </div>
 
 <script>
-  // Change tabs for webmentions UI
-function changeTabs(target) {
-  const parent = target.parentNode;
-  const grandparent = parent.parentNode;
 
-  // Remove all current selected tabs
-  parent
-    .querySelectorAll('[aria-selected="true"]')
-    .forEach(t => t.setAttribute("aria-selected", false));
-
-  // Set this tab as selected
-  target.setAttribute("aria-selected", true);
-
-  // Hide all tab panels
-  grandparent
-    .querySelectorAll('[role="tabpanel"]')
-    .forEach(p => p.setAttribute("hidden", true));
-
-  // Show the selected panel
-  grandparent.parentNode
-    .querySelector(`#${target.getAttribute("aria-controls")}`)
-    .removeAttribute("hidden");
-}
-
-function addTabListeners() {
-  const tabs = document.querySelectorAll('.schedule [role="tab"]');
-  const tabList = document.querySelector('.schedule [role="tablist"]');
-
-  if (!tabs || !tabList) {
-    return;
-  }
-  // Add a click event handler to each tab
-  tabs.forEach(tab => {
-    tab.addEventListener("click", function(e){changeTabs(e.target)});
-  });
-
-  // Enable arrow navigation between tabs in the tab list
-  let tabFocus = 0;
-
-  tabList.addEventListener("keydown", e => {
-    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-      tabs[tabFocus].setAttribute("tabindex", -1);
-      // Move right
-      if (e.key === "ArrowRight") {
-        tabFocus++;
-        // If we're at the end, go to the start
-        if (tabFocus >= tabs.length) {
-          tabFocus = 0;
-        }
-        // Move left
-      } else if (e.key === "ArrowLeft") {
-        tabFocus--;
-        // If we're at the start, move to the end
-        if (tabFocus < 0) {
-          tabFocus = tabs.length - 1;
-        }
-      }
-
-      tabs[tabFocus].setAttribute("tabindex", 0);
-      tabs[tabFocus].focus();
-      changeTabs(tabs[tabFocus]);
+  function toggleDisclosure(btnID) {
+    // Get the button that triggered this
+    var theButton = document.getElementById(btnID);
+    // If the button is not expanded...
+    if (theButton.getAttribute("aria-expanded") == "false") {
+      // Now set the button to expanded
+      theButton.setAttribute("aria-expanded", "true");
+    // Otherwise button is not expanded...
+    } else {
+      // Now set the button to collapsed
+      theButton.setAttribute("aria-expanded", "false");
     }
-  });
-}
-
-
-addTabListeners();
+  }
 </script>
