@@ -1,8 +1,8 @@
 module.exports = [
-    // {
-    //     "name": "About",
-    //     "url": "/#about"
-    // },
+    {
+        "name": "About",
+        "url": "/about/"
+    },
     // {
     //     "name": "Schedule",
     //     "url": "/schedule"
@@ -15,9 +15,4 @@ module.exports = [
         "name": "CoC",
         "url": "/coc/"
     },
-    // {
-    //     "name": "Register",
-    //     "url": "https://shdindia.myinstamojo.com/",
-    //     "type": "primary",
-    // },
 ];
