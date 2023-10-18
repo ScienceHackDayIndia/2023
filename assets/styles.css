@@ -453,7 +453,7 @@ button[aria-expanded="false"] + div {
   display: block;
   border-bottom: 2px solid var(--color-yellow);
   text-align: left;
-  width: 80%;
+  width: max(80%, 280px);
 }
 .schedule-date .section-title {
   margin-bottom: 1rem;
