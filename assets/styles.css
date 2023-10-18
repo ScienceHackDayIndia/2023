@@ -10,7 +10,7 @@
   --spacing: clamp(1.25rem, calc(0.88rem + 1.62vw), 2rem);;
 }
 
-* {
+*:not(ul, ol) {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -129,9 +129,16 @@ when an element receives focus via the mouse. */
 }
 
 /* Typography */
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: var(--title-font);
-  margin: 1rem 0;
+  margin: 1.25rem 0;
+}
+h4 {
+  margin: 1.5rem 0 1rem;
+}
+h3 {
+  font-size: 1.65rem;
+  color: var(--color-yellow);
 }
 .hero-title {
   font-size: clamp(3.00rem, calc(2.14rem + 4.29vw), 6.00rem);
@@ -143,13 +150,15 @@ h1, h2, h3, h4 {
 
 .page-title {
   font-size: clamp(2.88rem, calc(2.48rem + 2.00vw), 3.91rem);;
-  line-height: 1.2;
+  line-height: 1.1;
+  text-align: center;
+  padding-bottom: var(--spacing);
 }
 
 .section-title {
   font-size: clamp(2.00rem, calc(1.80rem + 0.98vw), 2.50rem);
   line-height: 1.2;
-  margin-bottom: clamp(1.25rem, calc(0.37rem + 4.39vw), 3.50rem);
+  margin: clamp(1.25rem, calc(0.37rem + 4.39vw), 3.50rem) 0;
 
 }
 
@@ -320,12 +329,12 @@ section > * + * {
 }
 
 .about-section {
-  padding-top: 3rem;
-  padding-bottom: clamp(6.00rem, calc(3.46rem + 12.68vw), 12.50rem);
+  padding: 3rem 0;
 }
 
 .about-section .section-title{
   text-align: center;
+  margin-top: 1rem;
 }
 
 .about-section iframe {
@@ -398,7 +407,8 @@ section > * + * {
 
 .site-footer {
   margin: auto;
-  padding-top: 2.5rem;
+  margin-top: clamp(6rem, calc(3.46rem + 12.68vw), 12.5rem);
+  padding-top: 3.5rem;
   padding-bottom: 2.5rem;
   background-image: url(/assets/images/moon_footer.png);
   background-size: cover;
