@@ -12,6 +12,10 @@ module.exports = [
         "url": "/partners/"
     },
     {
+        "name": "Workshop",
+        "url": "/workshop/"
+    },
+    {
         "name": "CoC",
         "url": "/coc/"
     },

@@ -135,6 +135,8 @@ h1, h2, h3 {
 }
 h4 {
   margin: 1.5rem 0 1rem;
+  text-decoration: underline var(--color-gray) 4px;
+  text-underline-offset: 5px;
 }
 h3 {
   font-size: 1.65rem;
