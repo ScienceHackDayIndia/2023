@@ -465,12 +465,17 @@ button[aria-expanded="false"] + div {
 }
 
 .date-agenda-item {
-  display: grid;
   grid-template-columns: clamp(7.50rem, calc(7.07rem + 2.14vw), 9.00rem) clamp(1.50rem, calc(0.86rem + 3.21vw), 3.75rem) auto;
   border-bottom: 1px solid var(--color-light-blue);
   padding: 1rem 0.25rem;
   list-style-type: none;
   align-items: baseline;
+}
+
+@media (min-width: 768px) {
+  .date-agenda-item {
+    display: grid;
+  }
 }
 
 .date-agenda-item .time {
