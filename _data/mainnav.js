@@ -15,4 +15,9 @@ module.exports = [
         "name": "CoC",
         "url": "/coc/"
     },
+    {
+        "name": "Register",
+        "type": "primary",
+        "url": "https://konfhub.com/shdindia"
+    },
 ];

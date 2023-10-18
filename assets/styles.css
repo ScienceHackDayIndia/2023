@@ -122,10 +122,10 @@ when an element receives focus via the mouse. */
 .nav__link.primary {
   color: var(--color-white);
   padding: 0.35rem 1.5rem;
-  border: 5px solid var(--color-pink);
+  border: 5px solid var(--color-yellow);
 }
 .nav__link.primary:hover {
-  background-color: var(--color-pink);
+  background-color: var(--color-yellow);
 }
 
 /* Typography */
