@@ -1,7 +1,7 @@
 module.exports = [
     {
         "key": "day0",
-        "name": "23rd Dec, Fri",
+        "name": "27th Oct, Fri",
         "schedule": [
             {
                 "time": "11:00 AM",
@@ -17,7 +17,7 @@ module.exports = [
     },
     {
         "key": "day1",
-        "name": "24th Dec, Sat",
+        "name": "28th Oct, Sat",
         "schedule": [
             {
                 "time": "8:30 AM",
@@ -72,7 +72,7 @@ module.exports = [
     },
     {
         "key": "day2",
-        "name": "25th Dec, Sun",
+        "name": "29th Oct, Sun",
         "schedule": [
             {
                 "time": "8:30 AM",
