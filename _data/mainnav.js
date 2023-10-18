@@ -7,10 +7,10 @@ module.exports = [
         "name": "Schedule",
         "url": "/schedule"
     },
-    // {
-    //     "name": "Sponsors",
-    //     "url": "/#sponsors"
-    // },
+    {
+        "name": "Partners",
+        "url": "/partners/"
+    },
     {
         "name": "CoC",
         "url": "/coc/"

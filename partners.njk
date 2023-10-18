@@ -1,0 +1,29 @@
+---
+layout: page.njk
+title: Partners
+class: star-bg
+---
+<h2 class="section-title">Organizing Partners</h2>
+<ul class="sponsor-items">
+  {% for item in sponsors %}
+    {% if item.type == "organizing" %}
+      <li class="sponsor-item">
+        <a href="{{ item.url }}">
+          <img src="{{ item.image }}" alt="{{ item.name }}" />
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<h2 class="section-title">Community Partners</h3>
+<ul class="sponsor-items">
+  {% for item in sponsors %}
+    {% if item.type == "community" %}
+      <li class="sponsor-item">
+        <a href="{{ item.url }}">
+          <img src="{{ item.image }}" alt="{{ item.name }}" />
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
