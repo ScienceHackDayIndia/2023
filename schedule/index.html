@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="/assets/styles.css" />
   <link rel="icon" href="/assets/images/favicon.ico">
 </head>
-<body class=>
+<body class=star-bg>
   <header class="site-header">
   <a href="#content" class="skip-link">Skip to content</a>
   <nav class="nav mainnav" aria-label="Main">
@@ -41,6 +41,15 @@
           class="nav__link "
           >
           About
+        </a>
+      </li>
+      
+      <li class="nav__item">
+        <a
+          href="/schedule"
+          class="nav__link "
+          aria-current="page">
+          Schedule
         </a>
       </li>
       
@@ -63,35 +72,23 @@
 </div>
 <div class="container section-dark">
   <div class="schedule">
-  <div class="date-tabs" role="tablist" aria-label="Dates">
-    
-    <button id="day0-tab"
-      role="tab"
-      aria-selected="true"
-      aria-controls="day0-panel"
-      tabindex="0">
-      23rd Dec, Fri
-    </button>
-    
-    <button id="day1-tab"
-      role="tab"
-      aria-selected="false"
-      aria-controls="day1-panel"
-      tabindex="-1">
-      24th Dec, Sat
-    </button>
-    
-    <button id="day2-tab"
-      role="tab"
-      aria-selected="false"
-      aria-controls="day2-panel"
-      tabindex="-1">
-      25th Dec, Sun
-    </button>
-    
-  </div>
   
-    <div id="day0-panel" role="tabpanel" tabindex="0" aria-labelledby="day0-tab" >
+    <button id="day0-btn"
+      type="button"
+      aria-expanded="true"
+      onclick="toggleDisclosure(this.id);"
+      class="schedule-date"
+      aria-controls="day0-panel">
+      <h2 class="section-title">
+        <span>
+          <svg xmlns="\http://www.w3.org/2000/svg&quot;" viewBox="0 0 80 80" focusable="false">
+            <path d="M70.3 13.8L40 66.3 9.7 13.8z"></path>
+          </svg>
+        </span>
+        23rd Dec, Fri
+      </h2>
+    </button>
+    <div id="day0-panel">
       <ul class="date-agenda">
         
           <li class="date-agenda-item">
@@ -115,7 +112,22 @@
       </ul>
     </div>
   
-    <div id="day1-panel" role="tabpanel" tabindex="0" aria-labelledby="day1-tab" hidden>
+    <button id="day1-btn"
+      type="button"
+      aria-expanded="true"
+      onclick="toggleDisclosure(this.id);"
+      class="schedule-date"
+      aria-controls="day1-panel">
+      <h2 class="section-title">
+        <span>
+          <svg xmlns="\http://www.w3.org/2000/svg&quot;" viewBox="0 0 80 80" focusable="false">
+            <path d="M70.3 13.8L40 66.3 9.7 13.8z"></path>
+          </svg>
+        </span>
+        24th Dec, Sat
+      </h2>
+    </button>
+    <div id="day1-panel">
       <ul class="date-agenda">
         
           <li class="date-agenda-item">
@@ -211,7 +223,22 @@
       </ul>
     </div>
   
-    <div id="day2-panel" role="tabpanel" tabindex="0" aria-labelledby="day2-tab" hidden>
+    <button id="day2-btn"
+      type="button"
+      aria-expanded="true"
+      onclick="toggleDisclosure(this.id);"
+      class="schedule-date"
+      aria-controls="day2-panel">
+      <h2 class="section-title">
+        <span>
+          <svg xmlns="\http://www.w3.org/2000/svg&quot;" viewBox="0 0 80 80" focusable="false">
+            <path d="M70.3 13.8L40 66.3 9.7 13.8z"></path>
+          </svg>
+        </span>
+        25th Dec, Sun
+      </h2>
+    </button>
+    <div id="day2-panel">
       <ul class="date-agenda">
         
           <li class="date-agenda-item">
@@ -274,73 +301,20 @@
 </div>
 
 <script>
-  // Change tabs for webmentions UI
-function changeTabs(target) {
-  const parent = target.parentNode;
-  const grandparent = parent.parentNode;
 
-  // Remove all current selected tabs
-  parent
-    .querySelectorAll('[aria-selected="true"]')
-    .forEach(t => t.setAttribute("aria-selected", false));
-
-  // Set this tab as selected
-  target.setAttribute("aria-selected", true);
-
-  // Hide all tab panels
-  grandparent
-    .querySelectorAll('[role="tabpanel"]')
-    .forEach(p => p.setAttribute("hidden", true));
-
-  // Show the selected panel
-  grandparent.parentNode
-    .querySelector(`#${target.getAttribute("aria-controls")}`)
-    .removeAttribute("hidden");
-}
-
-function addTabListeners() {
-  const tabs = document.querySelectorAll('.schedule [role="tab"]');
-  const tabList = document.querySelector('.schedule [role="tablist"]');
-
-  if (!tabs || !tabList) {
-    return;
-  }
-  // Add a click event handler to each tab
-  tabs.forEach(tab => {
-    tab.addEventListener("click", function(e){changeTabs(e.target)});
-  });
-
-  // Enable arrow navigation between tabs in the tab list
-  let tabFocus = 0;
-
-  tabList.addEventListener("keydown", e => {
-    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-      tabs[tabFocus].setAttribute("tabindex", -1);
-      // Move right
-      if (e.key === "ArrowRight") {
-        tabFocus++;
-        // If we're at the end, go to the start
-        if (tabFocus >= tabs.length) {
-          tabFocus = 0;
-        }
-        // Move left
-      } else if (e.key === "ArrowLeft") {
-        tabFocus--;
-        // If we're at the start, move to the end
-        if (tabFocus < 0) {
-          tabFocus = tabs.length - 1;
-        }
-      }
-
-      tabs[tabFocus].setAttribute("tabindex", 0);
-      tabs[tabFocus].focus();
-      changeTabs(tabs[tabFocus]);
+  function toggleDisclosure(btnID) {
+    // Get the button that triggered this
+    var theButton = document.getElementById(btnID);
+    // If the button is not expanded...
+    if (theButton.getAttribute("aria-expanded") == "false") {
+      // Now set the button to expanded
+      theButton.setAttribute("aria-expanded", "true");
+    // Otherwise button is not expanded...
+    } else {
+      // Now set the button to collapsed
+      theButton.setAttribute("aria-expanded", "false");
     }
-  });
-}
-
-
-addTabListeners();
+  }
 </script>
 </div>
 
