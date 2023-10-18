@@ -255,7 +255,7 @@ section > * + * {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
+  padding-top: 2rem;
   padding-bottom: 10rem;
 }
 
@@ -329,7 +329,7 @@ section > * + * {
 }
 
 .about-section {
-  padding: 3rem 0;
+  padding: 3rem var(--spacing);
 }
 
 .about-section .section-title{
@@ -454,9 +454,28 @@ button[aria-expanded="false"] + div {
   border-bottom: 2px solid var(--color-yellow);
   text-align: left;
   width: max(80%, 280px);
+  cursor: pointer;
 }
 .schedule-date .section-title {
   margin-bottom: 1rem;
+}
+.schedule-date span {
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  text-indent: 0;
+  transform: rotate(0deg);
+}
+.schedule-date[aria-expanded=false] span {
+  transform: rotate(270deg);
+}
+
+.schedule-date  svg {
+  width: 0.9em;
+  height: 0.9em;
+  fill: #fff;
+  transition: transform 0.25s ease-in;
+  transform-origin: center 45%;
 }
 
 .date-agenda {
@@ -488,11 +507,11 @@ button[aria-expanded="false"] + div {
   font-family: var(--title-font);
 }
 .date-agenda-item .description {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 0.9891rem + 1.3043vw, 2rem);
   display: flex;
   flex-direction: column;
 }
 .date-agenda-item .description .location {
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
   color: #b7b6b6;
 }

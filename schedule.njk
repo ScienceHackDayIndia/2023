@@ -11,7 +11,14 @@ class: star-bg
       onclick="toggleDisclosure(this.id);"
       class="schedule-date"
       aria-controls="{{ date.key }}-panel">
-      <h2 class="section-title">{{ date.name }}</h2>
+      <h2 class="section-title">
+        <span>
+          <svg xmlns="\http://www.w3.org/2000/svg&quot;" viewBox="0 0 80 80" focusable="false">
+            <path d="M70.3 13.8L40 66.3 9.7 13.8z"></path>
+          </svg>
+        </span>
+        {{ date.name }}
+      </h2>
     </button>
     <div id="{{ date.key }}-panel">
       <ul class="date-agenda">
