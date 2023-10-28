@@ -39,4 +39,14 @@ module.exports = [
         "image": "/assets/images/sponsors/pybelgaum.png",
         "type": "community",
     },
+    {
+        "name": "Hotel New Uday Bhuvan",
+        "image": "/assets/images/sponsors/ub.jpg",
+        "type": "community",
+    },
+    {
+        "name": "Super Castings",
+        "image": "/assets/images/sponsors/supercast.jpg",
+        "type": "community",
+    },   
 ];
