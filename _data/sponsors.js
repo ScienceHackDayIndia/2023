@@ -48,5 +48,10 @@ module.exports = [
         "name": "Super Castings",
         "image": "/assets/images/sponsors/supercast.jpg",
         "type": "community",
-    },   
+    },
+    {
+        "name": "Informant Networks",
+        "image": "/assets/images/sponsors/informant-networks.png",
+        "type": "community",
+    }
 ];
