@@ -8,12 +8,16 @@ module.exports = [
         "url": "/schedule"
     },
     {
-        "name": "Partners",
-        "url": "/partners/"
+        "name": "Projects",
+        "url": "/projects/"
     },
     {
         "name": "Workshop",
         "url": "/workshop/"
+    },
+    {
+        "name": "Partners",
+        "url": "/partners/"
     },
     {
         "name": "CoC",
