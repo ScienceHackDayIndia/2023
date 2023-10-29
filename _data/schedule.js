@@ -45,14 +45,9 @@ module.exports = [
                 "location": "Dhaba",
             },
             {
-                "time": "2:30 PM",
-                "description": "Demo and Games",
-                "location": "Main auditorium",
-            },
-            {
                 "time": "3:00 PM",
-                "description": "Micropython workshop",
-                "location": "Hacking area",
+                "description": "Intruder alert workshop",
+                "location": "Main auditorium",
             },
             {
                 "time": "4:30 PM",
@@ -62,7 +57,7 @@ module.exports = [
             {
                 "time": "6:30 PM",
                 "description": "Lightning talk",
-                "location": "Hacking area",
+                "location": "Main auditorium",
             },
             {
                 "time": "10:00 PM",
