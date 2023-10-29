@@ -71,4 +71,16 @@ module.exports = [
       "creator": "",
       "contact": "",
   },
+  {
+      "title": "Tensigrity Structure",
+      "description": "Tension based structure",
+      "creator": "Shiv & Team",
+      "contact": "",
+  },
+  {
+      "title": "Fractal Chair",
+      "description": "Fractal based cushioning of chair based on body shape",
+      "creator": "Ishaan and Goutam",
+      "contact": "",
+  },
 ];
