@@ -527,7 +527,7 @@ button[aria-expanded="false"] + div {
 }
 
 .project-item {
-  width: min(100%, 600px);
+  width: min(100%, 425px);
   padding: var(--spacing);
   border: 1px solid var(--color-gray);
   margin-bottom: var(--spacing);
