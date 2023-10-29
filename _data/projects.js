@@ -29,4 +29,22 @@ module.exports = [
       "creator": "Arun & Team",
       "contact": "",
   },
+  {
+      "title": "Harmonic Oscillator",
+      "description": "",
+      "creator": "Praveen & Team",
+      "contact": "",
+  },
+  {
+      "title": "High voltage source and infusion pump",
+      "description": "",
+      "creator": "Praveen & Team",
+      "contact": "",
+  },
+  {
+      "title": "Plasma vortex",
+      "description": "",
+      "creator": "Prathmesh & Team",
+      "contact": "",
+  },
 ];
