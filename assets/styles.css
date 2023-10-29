@@ -517,3 +517,26 @@ button[aria-expanded="false"] + div {
   font-size: clamp(0.875rem, 0.8315rem + 0.2174vw, 1rem);
   color: #b7b6b6;
 }
+
+/* Projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: var(--spacing);
+}
+
+.project-item {
+  max-width: 450px;
+  padding: var(--spacing);
+  border: 1px solid var(--color-gray);
+}
+
+.project-item .section-title {
+  margin-top: 0;
+}
+
+.project-item a {
+  color: var(--color-yellow);
+}
