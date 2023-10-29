@@ -1,0 +1,15 @@
+---
+layout: page.njk
+title: Projects
+---
+<div class="projects">
+  {% for item in projects %}
+  <div class="project-item">
+    <h2 class="section-title">{{ item.title }}</h2>
+    <p>
+      {{ item.description }}
+    </p>
+    <p>Team: <a href="{{ item.contact }}">{{ item.creator }}</a></p>
+  </div>
+  {% endfor %}
+</div>
