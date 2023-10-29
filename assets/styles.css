@@ -522,15 +522,15 @@ button[aria-expanded="false"] + div {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: stretch;
-  gap: var(--spacing);
 }
 
 .project-item {
-  max-width: 450px;
+  width: min(100%, 600px);
   padding: var(--spacing);
   border: 1px solid var(--color-gray);
+  margin-bottom: var(--spacing);
 }
 
 .project-item .section-title {
