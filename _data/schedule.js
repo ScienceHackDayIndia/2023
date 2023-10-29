@@ -20,7 +20,12 @@ module.exports = [
         "name": "28th Oct, Sat",
         "schedule": [
             {
-                "time": "8:30 AM",
+                "time": "6:00 AM",
+                "description": "Bird Watching",
+                "location": "Shiv Shakti Point",
+            },
+            {
+                "time": "8:00 AM",
                 "description": "Breakfast",
                 "location": "Dhaba",
             },
@@ -35,8 +40,13 @@ module.exports = [
                 "location": "Main auditorium",
             },
             {
+                "time": "11:00 AM",
+                "description": "Hacking begins",
+                "location": "Anywhere",
+            },
+            {
                 "time": "11:30 AM",
-                "description": "1st Sci toy kids workshop",
+                "description": "Workshop 1: Science Toys & Demos",
                 "location": "Main auditorium",
             },
             {
@@ -46,7 +56,7 @@ module.exports = [
             },
             {
                 "time": "3:00 PM",
-                "description": "Intruder alert workshop",
+                "description": "Workshop 2: Soldering & electronics",
                 "location": "Main auditorium",
             },
             {
@@ -60,7 +70,17 @@ module.exports = [
                 "location": "Main auditorium",
             },
             {
-                "time": "10:00 PM",
+                "time": "9:00 PM",
+                "description": "Dinner",
+                "location": "Dhaba",
+            },
+            {
+                "time": "9:30 PM",
+                "description": "Live Music",
+                "location": "Dhaba",
+            },
+            {
+                "time": "10:30 PM",
                 "description": "Star gazing",
             },
         ]
@@ -75,8 +95,13 @@ module.exports = [
                 "location": "Dhaba",
             },
             {
+                "time": "9:00 AM",
+                "description": "Hacking Resumes",
+                "location": "Everywhere",
+            },
+            {
                 "time": "10:00 AM",
-                "description": "2nd Sci toy workshop",
+                "description": "Worshop 3: Arduino & Kuttpy",
                 "location": "Main auditorium",
             },
             {
@@ -86,13 +111,18 @@ module.exports = [
             },
             {
                 "time": "2:00 PM",
-                "description": "Demo and Games",
+                "description": "Workshop 4: World of Microbes",
                 "location": "Main auditorium",
             },
             {
-                "time": "5:00 PM",
-                "description": "Valedictory High Tea",
-                "location": "Dhaba",
+                "time": "4:30 PM",
+                "description": "Hacking Ends, Judging",
+                "location": "Main auditorium",
+            },
+            {
+                "time": "6:00 PM",
+                "description": "Valedictory Function",
+                "location": "Main auditorium",
             },
             {
                 "time": "8:30 PM",
