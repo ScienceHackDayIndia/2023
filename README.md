@@ -9,3 +9,8 @@ October 27th - 29th, 2023, Sankalp Bhoomi Farm Resort, Belgaum
 - Run `npx @11ty/eleventy --serve`
 - Verify everything works as should
 - Create a separate branch and create a PR
+
+
+### Trouble with Node.Js on Ubuntu?
+
+Follow installation instructions for nodejs, npm at [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)

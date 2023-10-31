@@ -33,7 +33,7 @@ module.exports = [
       "title": "Coupled Harmonic Oscillator",
       "description": "",
       "creator": "Jithin BP, Ishaan Singh and Praveen Patil",
-      "contact": "",
+      "contact": "/writeups/harmonicoscillator",
   },
   {
       "title": "High voltage source and infusion pump",
