@@ -530,6 +530,10 @@ button[aria-expanded="false"] + div {
   padding: 0;
 }
 
+.projects .project-item > a {
+  color: var(--color-white);
+}
+
 .project-item {
   width: min(100%, 425px);
   padding: var(--spacing);
