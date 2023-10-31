@@ -9,7 +9,7 @@ title: Projects
     <p>
       {{ item.description }}
     </p><br />
-    <p>Team: <a {% if item.contact %}href="{{ item.contact }}"{% endif %}>{{ item.creator }}</a></p>
+    <p><b>Team:</b> <span class="project-contact">{{ item.creator | contactHTMLize | safe }}</span></p>
   </li>
   {% endfor %}
 </ul>
