@@ -1,5 +1,6 @@
 :root {
   --color-gray: #454A5E;
+  --color-light-blue: #b6dcfd;
   --color-blue: #030303;
   --color-dark-blue: #172f52;
   --color-yellow: #E2BC85;
@@ -532,7 +533,11 @@ button[aria-expanded="false"] + div {
 .project-item {
   width: min(100%, 425px);
   padding: var(--spacing);
-  border: 1px solid var(--color-gray);
+  border: 4px solid var(--color-white);
+  box-shadow:
+    /* White glow */
+    0 0 5px var(--color-gray),
+    0 0 15px var(--color-gray);
   margin-bottom: var(--spacing);
   list-style: none;
 }
@@ -541,6 +546,10 @@ button[aria-expanded="false"] + div {
   margin-top: 0;
 }
 
-.project-item a {
+.project-item .project-contact {
+  color: var(--color-light-blue);
+}
+
+.project-item .project-contact > a{
   color: var(--color-yellow);
 }
