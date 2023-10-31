@@ -526,6 +526,7 @@ button[aria-expanded="false"] + div {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
+  padding: 0;
 }
 
 .project-item {
@@ -533,6 +534,7 @@ button[aria-expanded="false"] + div {
   padding: var(--spacing);
   border: 1px solid var(--color-gray);
   margin-bottom: var(--spacing);
+  list-style: none;
 }
 
 .project-item .section-title {

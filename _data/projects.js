@@ -12,6 +12,12 @@ module.exports = [
       "contact": "",
   },
   {
+      "title": "Experiments with Sun Printing",
+      "description": "Use the cyanotype printing process to create prints using objects around us",
+      "creator": "Arun & Team",
+      "contact": "",
+  },
+  {
       "title": "Loom Bands workshop",
       "description": "",
       "creator": "Ovi & Eva",
@@ -21,12 +27,6 @@ module.exports = [
       "title": "PYSSLA beads",
       "description": "",
       "creator": "Eva",
-      "contact": "",
-  },
-  {
-      "title": "Experiments with Sun Printing",
-      "description": "Use the cyanotype printing process to create prints using objects around us",
-      "creator": "Arun & Team",
       "contact": "",
   },
   {
