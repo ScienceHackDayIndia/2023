@@ -91,8 +91,8 @@ module.exports = [
       "creator": "Gopikrishna and Vishwanath",
   },
   {
-      "title": "3D constellation",
-      "description": "",
+      "title": "3D constellations",
+      "description": "Stars from a constellation (Orion and Cassiopeia) arranged in 3D as per their actual distances from Earth. To solve the puzzle, viewer has to [walk around the installation](https://imgur.com/a/9F6MLEo).",
       "creator": "Harshad, Shubham and Ashok",
   },
   {
