@@ -248,7 +248,9 @@ section > * + * {
   margin: auto;
 }
 .section-dark {
-  padding: max(calc((100vw - 1440px) / 2 + var(--spacing)), var(--spacing));
+  padding: var(--spacing);
+  padding-left: max(calc((100vw - 1440px) / 2 + var(--spacing)), var(--spacing));
+  padding-right: max(calc((100vw - 1440px) / 2 + var(--spacing)), var(--spacing));
   background: rgb(53,35,65);
   background: radial-gradient(circle, rgba(53,35,65,1) 0%, rgba(6,2,1,1) 100%);
 }
@@ -524,6 +526,7 @@ button[aria-expanded="false"] + div {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
+  padding: 0;
 }
 
 .project-item {
@@ -531,6 +534,7 @@ button[aria-expanded="false"] + div {
   padding: var(--spacing);
   border: 1px solid var(--color-gray);
   margin-bottom: var(--spacing);
+  list-style: none;
 }
 
 .project-item .section-title {
