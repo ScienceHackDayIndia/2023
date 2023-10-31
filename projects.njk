@@ -5,7 +5,7 @@ title: Projects
 <ul class="projects">
   {% for item in projects %}
   <li class="project-item">
-    <h2 class="section-title">{{ item.title }}</h2>
+    <a class="section-title" style="color:#ffc" {% if item.contact %}href="{{ item.contact }}"{% endif %} >{{ item.title }}</a>
     <p>
       {{ item.description }}
     </p><br />

@@ -28,6 +28,7 @@ module.exports = [
       "title": "Coupled Harmonic Oscillator",
       "description": "",
       "creator": "Jithin BP, Ishaan Singh and Praveen Patil",
+      "contact": "/writeups/harmonicoscillator",
   },
   {
       "title": "ElectroSpin",
