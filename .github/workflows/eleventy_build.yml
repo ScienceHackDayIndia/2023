@@ -13,6 +13,7 @@ jobs:
         uses: TartanLlama/actions-eleventy@v1.3
         with:
           install_dependencies: true
+          args: --pathprefix 2022
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
