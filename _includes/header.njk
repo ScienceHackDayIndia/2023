@@ -1,14 +1,14 @@
 <header class="site-header">
   <a href="#content" class="skip-link">Skip to content</a>
   <nav class="nav mainnav" aria-label="Main">
-    <a href="/" class="homelink">
-      <img src="/assets/images/shdbelgaumwhite.png" alt="Home page" />
+    <a href="{{ "/" | url }}" class="homelink">
+      <img src="{{ "/assets/images/shdbelgaumwhite.png" | url }}" alt="Home page" />
     </a>
     <ol class="nav__items">
       {% for item in mainnav %}
       <li class="nav__item">
         <a
-          href="{{ item.url }}"
+          href="{{ item.url | url }}"
           class="nav__link {% if item.type == 'primary' %}primary{% endif %}"
           {% if item.url === page.url or (item.url !== '/' and item.url in page.url)  %}aria-current="page"{% endif %}>
           {{ item.name }}
