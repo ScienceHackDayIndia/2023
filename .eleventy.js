@@ -11,4 +11,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addAsyncFilter("contactHTMLize", async function(value) {
     return markdownIt.renderInline(value);
   });
+
+  return {
+		pathPrefix: "/2023/",
+	};
 };
